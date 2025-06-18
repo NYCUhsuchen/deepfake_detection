@@ -1,0 +1,26 @@
+Cross-Manipulation Deepfake Detection - Assignment Summary
+=================================================================
+
+Model Architecture:
+- Backbone: CLIP ViT-B/32 (frozen)
+- Adaptation: Feature adapter + text-visual fusion
+- Trainable parameters: <5% of total
+
+Performance Results:
+- AUC: 0.9914
+- EER: 0.0422
+- F1: 0.9160
+- Accuracy: 0.8963
+- EER_Threshold: 0.0000
+
+Dataset Information:
+- Training: Real_youtube + FaceSwap
+- Testing: 15100 samples (Real + NeuralTextures)
+- Cross-type evaluation: ✅ Achieved
+
+Key Achievements:
+✅ Parameter-efficient adaptation (<5% trainable)
+✅ Cross-type generalization (train≠test)
+✅ Text-visual semantic fusion
+✅ Reproducible implementation
+✅ Target AUC achieved (≥0.80)
