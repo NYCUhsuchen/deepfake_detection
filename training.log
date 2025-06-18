@@ -1,0 +1,975 @@
+2025-06-18 07:42:43,115 - INFO - Using device: cuda
+2025-06-18 07:42:43,115 - INFO - Arguments: Namespace(data_dir='./data', output_dir='./outputs', batch_size=32, epochs=10, lr=0.0001, lora_rank=4, lora_alpha=1.0, seed=42, mode='both')
+2025-06-18 07:42:48,728 - INFO - Total parameters: 151,538,179
+2025-06-18 07:42:48,728 - INFO - Trainable parameters: 260,866 (0.17%)
+2025-06-18 07:42:48,729 - INFO - Dataset created with 0 samples
+2025-06-18 07:42:48,729 - INFO -   Real_youtube: 0 samples
+2025-06-18 07:42:48,729 - INFO -   FaceSwap: 0 samples
+2025-06-18 07:53:13,528 - INFO - Using device: cuda
+2025-06-18 07:53:13,528 - INFO - Arguments: Namespace(data_dir='./data', output_dir='./outputs', batch_size=32, epochs=10, lr=0.0001, lora_rank=4, lora_alpha=1.0, seed=42, mode='both')
+2025-06-18 07:53:14,909 - INFO - Total parameters: 151,538,179
+2025-06-18 07:53:14,909 - INFO - Trainable parameters: 260,866 (0.17%)
+2025-06-18 07:53:15,006 - INFO - Dataset created with 20200 samples
+2025-06-18 07:53:15,007 - INFO -   Real_youtube: 10100 samples
+2025-06-18 07:53:15,007 - INFO -   FaceSwap: 10100 samples
+2025-06-18 07:53:15,008 - INFO - Starting training...
+2025-06-18 07:54:37,569 - INFO - Using device: cuda
+2025-06-18 07:54:37,569 - INFO - Arguments: Namespace(data_dir='./data', output_dir='./outputs', batch_size=32, epochs=10, lr=0.0001, lora_rank=4, lora_alpha=1.0, seed=42, mode='both')
+2025-06-18 07:54:38,927 - INFO - Total parameters: 151,532,035
+2025-06-18 07:54:38,927 - INFO - Trainable parameters: 254,722 (0.17%)
+2025-06-18 07:54:38,927 - INFO - Creating dataset from data
+2025-06-18 07:54:38,927 - INFO - Looking for classes: ['Real_youtube', 'FaceSwap']
+2025-06-18 07:54:38,927 - INFO - Checking directory: data/Real_youtube
+2025-06-18 07:54:38,938 - INFO - Found 10100 *.png files in Real_youtube
+2025-06-18 07:54:38,952 - INFO - Found subdirectory: data/Real_youtube/340
+2025-06-18 07:54:38,952 - INFO - Found subdirectory: data/Real_youtube/148
+2025-06-18 07:54:38,953 - INFO - Found subdirectory: data/Real_youtube/663
+2025-06-18 07:54:38,953 - INFO - Found subdirectory: data/Real_youtube/232
+2025-06-18 07:54:38,953 - INFO - Found subdirectory: data/Real_youtube/910
+2025-06-18 07:54:38,953 - INFO - Found subdirectory: data/Real_youtube/055
+2025-06-18 07:54:38,954 - INFO - Found subdirectory: data/Real_youtube/230
+2025-06-18 07:54:38,954 - INFO - Found subdirectory: data/Real_youtube/465
+2025-06-18 07:54:38,954 - INFO - Found subdirectory: data/Real_youtube/443
+2025-06-18 07:54:38,954 - INFO - Found subdirectory: data/Real_youtube/999
+2025-06-18 07:54:38,955 - INFO - Found subdirectory: data/Real_youtube/038
+2025-06-18 07:54:38,955 - INFO - Found subdirectory: data/Real_youtube/217
+2025-06-18 07:54:38,955 - INFO - Found subdirectory: data/Real_youtube/585
+2025-06-18 07:54:38,955 - INFO - Found subdirectory: data/Real_youtube/009
+2025-06-18 07:54:38,956 - INFO - Found subdirectory: data/Real_youtube/600
+2025-06-18 07:54:38,956 - INFO - Found subdirectory: data/Real_youtube/378
+2025-06-18 07:54:38,956 - INFO - Found subdirectory: data/Real_youtube/126
+2025-06-18 07:54:38,956 - INFO - Found subdirectory: data/Real_youtube/360
+2025-06-18 07:54:38,957 - INFO - Found subdirectory: data/Real_youtube/058
+2025-06-18 07:54:38,957 - INFO - Found subdirectory: data/Real_youtube/228
+2025-06-18 07:54:38,957 - INFO - Found subdirectory: data/Real_youtube/380
+2025-06-18 07:54:38,957 - INFO - Found subdirectory: data/Real_youtube/754
+2025-06-18 07:54:38,958 - INFO - Found subdirectory: data/Real_youtube/985
+2025-06-18 07:54:38,958 - INFO - Found subdirectory: data/Real_youtube/124
+2025-06-18 07:54:38,958 - INFO - Found subdirectory: data/Real_youtube/628
+2025-06-18 07:54:38,958 - INFO - Found subdirectory: data/Real_youtube/089
+2025-06-18 07:54:38,958 - INFO - Found subdirectory: data/Real_youtube/202
+2025-06-18 07:54:38,959 - INFO - Found subdirectory: data/Real_youtube/859
+2025-06-18 07:54:38,959 - INFO - Found subdirectory: data/Real_youtube/025
+2025-06-18 07:54:38,959 - INFO - Found subdirectory: data/Real_youtube/218
+2025-06-18 07:54:38,960 - INFO - Found subdirectory: data/Real_youtube/820
+2025-06-18 07:54:38,960 - INFO - Found subdirectory: data/Real_youtube/208
+2025-06-18 07:54:38,960 - INFO - Found subdirectory: data/Real_youtube/229
+2025-06-18 07:54:38,960 - INFO - Found subdirectory: data/Real_youtube/619
+2025-06-18 07:54:38,960 - INFO - Found subdirectory: data/Real_youtube/346
+2025-06-18 07:54:38,960 - INFO - Found subdirectory: data/Real_youtube/550
+2025-06-18 07:54:38,960 - INFO - Found subdirectory: data/Real_youtube/364
+2025-06-18 07:54:38,960 - INFO - Found subdirectory: data/Real_youtube/339
+2025-06-18 07:54:38,960 - INFO - Found subdirectory: data/Real_youtube/263
+2025-06-18 07:54:38,961 - INFO - Found subdirectory: data/Real_youtube/864
+2025-06-18 07:54:38,961 - INFO - Found subdirectory: data/Real_youtube/746
+2025-06-18 07:54:38,961 - INFO - Found subdirectory: data/Real_youtube/708
+2025-06-18 07:54:38,961 - INFO - Found subdirectory: data/Real_youtube/068
+2025-06-18 07:54:38,961 - INFO - Found subdirectory: data/Real_youtube/377
+2025-06-18 07:54:38,961 - INFO - Found subdirectory: data/Real_youtube/059
+2025-06-18 07:54:38,961 - INFO - Found subdirectory: data/Real_youtube/156
+2025-06-18 07:54:38,961 - INFO - Found subdirectory: data/Real_youtube/121
+2025-06-18 07:54:38,962 - INFO - Found subdirectory: data/Real_youtube/273
+2025-06-18 07:54:38,962 - INFO - Found subdirectory: data/Real_youtube/484
+2025-06-18 07:54:38,962 - INFO - Found subdirectory: data/Real_youtube/270
+2025-06-18 07:54:38,962 - INFO - Found subdirectory: data/Real_youtube/153
+2025-06-18 07:54:38,962 - INFO - Found subdirectory: data/Real_youtube/997
+2025-06-18 07:54:38,963 - INFO - Found subdirectory: data/Real_youtube/578
+2025-06-18 07:54:38,963 - INFO - Found subdirectory: data/Real_youtube/671
+2025-06-18 07:54:38,963 - INFO - Found subdirectory: data/Real_youtube/020
+2025-06-18 07:54:38,964 - INFO - Found subdirectory: data/Real_youtube/797
+2025-06-18 07:54:38,964 - INFO - Found subdirectory: data/Real_youtube/240
+2025-06-18 07:54:38,964 - INFO - Found subdirectory: data/Real_youtube/016
+2025-06-18 07:54:38,964 - INFO - Found subdirectory: data/Real_youtube/863
+2025-06-18 07:54:38,965 - INFO - Found subdirectory: data/Real_youtube/143
+2025-06-18 07:54:38,965 - INFO - Found subdirectory: data/Real_youtube/164
+2025-06-18 07:54:38,965 - INFO - Found subdirectory: data/Real_youtube/996
+2025-06-18 07:54:38,965 - INFO - Found subdirectory: data/Real_youtube/842
+2025-06-18 07:54:38,965 - INFO - Found subdirectory: data/Real_youtube/181
+2025-06-18 07:54:38,966 - INFO - Found subdirectory: data/Real_youtube/418
+2025-06-18 07:54:38,966 - INFO - Found subdirectory: data/Real_youtube/748
+2025-06-18 07:54:38,966 - INFO - Found subdirectory: data/Real_youtube/379
+2025-06-18 07:54:38,966 - INFO - Found subdirectory: data/Real_youtube/694
+2025-06-18 07:54:38,966 - INFO - Found subdirectory: data/Real_youtube/286
+2025-06-18 07:54:38,967 - INFO - Found subdirectory: data/Real_youtube/497
+2025-06-18 07:54:38,967 - INFO - Found subdirectory: data/Real_youtube/084
+2025-06-18 07:54:38,967 - INFO - Found subdirectory: data/Real_youtube/583
+2025-06-18 07:54:38,967 - INFO - Found subdirectory: data/Real_youtube/572
+2025-06-18 07:54:38,967 - INFO - Found subdirectory: data/Real_youtube/965
+2025-06-18 07:54:38,968 - INFO - Found subdirectory: data/Real_youtube/515
+2025-06-18 07:54:38,968 - INFO - Found subdirectory: data/Real_youtube/927
+2025-06-18 07:54:38,968 - INFO - Found subdirectory: data/Real_youtube/077
+2025-06-18 07:54:38,969 - INFO - Found subdirectory: data/Real_youtube/942
+2025-06-18 07:54:38,969 - INFO - Found subdirectory: data/Real_youtube/446
+2025-06-18 07:54:38,969 - INFO - Found subdirectory: data/Real_youtube/757
+2025-06-18 07:54:38,969 - INFO - Found subdirectory: data/Real_youtube/069
+2025-06-18 07:54:38,969 - INFO - Found subdirectory: data/Real_youtube/791
+2025-06-18 07:54:38,969 - INFO - Found subdirectory: data/Real_youtube/015
+2025-06-18 07:54:38,970 - INFO - Found subdirectory: data/Real_youtube/226
+2025-06-18 07:54:38,970 - INFO - Found subdirectory: data/Real_youtube/165
+2025-06-18 07:54:38,970 - INFO - Found subdirectory: data/Real_youtube/634
+2025-06-18 07:54:38,970 - INFO - Found subdirectory: data/Real_youtube/978
+2025-06-18 07:54:38,971 - INFO - Found subdirectory: data/Real_youtube/561
+2025-06-18 07:54:38,971 - INFO - Found subdirectory: data/Real_youtube/648
+2025-06-18 07:54:38,971 - INFO - Found subdirectory: data/Real_youtube/200
+2025-06-18 07:54:38,971 - INFO - Found subdirectory: data/Real_youtube/438
+2025-06-18 07:54:38,972 - INFO - Found subdirectory: data/Real_youtube/277
+2025-06-18 07:54:38,972 - INFO - Found subdirectory: data/Real_youtube/505
+2025-06-18 07:54:38,972 - INFO - Found subdirectory: data/Real_youtube/588
+2025-06-18 07:54:38,972 - INFO - Found subdirectory: data/Real_youtube/154
+2025-06-18 07:54:38,972 - INFO - Found subdirectory: data/Real_youtube/959
+2025-06-18 07:54:38,972 - INFO - Found subdirectory: data/Real_youtube/194
+2025-06-18 07:54:38,973 - INFO - Found subdirectory: data/Real_youtube/309
+2025-06-18 07:54:38,973 - INFO - Found subdirectory: data/Real_youtube/928
+2025-06-18 07:54:38,973 - INFO - Found subdirectory: data/Real_youtube/901
+2025-06-18 07:54:38,974 - INFO - Checking directory: data/FaceSwap
+2025-06-18 07:54:39,049 - INFO - Found 10100 *.png files in FaceSwap
+2025-06-18 07:54:39,064 - INFO - Found subdirectory: data/FaceSwap/881_856
+2025-06-18 07:54:39,064 - INFO - Found subdirectory: data/FaceSwap/941_940
+2025-06-18 07:54:39,065 - INFO - Found subdirectory: data/FaceSwap/176_190
+2025-06-18 07:54:39,065 - INFO - Found subdirectory: data/FaceSwap/262_301
+2025-06-18 07:54:39,065 - INFO - Found subdirectory: data/FaceSwap/577_593
+2025-06-18 07:54:39,065 - INFO - Found subdirectory: data/FaceSwap/746_571
+2025-06-18 07:54:39,065 - INFO - Found subdirectory: data/FaceSwap/896_128
+2025-06-18 07:54:39,065 - INFO - Found subdirectory: data/FaceSwap/791_770
+2025-06-18 07:54:39,066 - INFO - Found subdirectory: data/FaceSwap/065_089
+2025-06-18 07:54:39,066 - INFO - Found subdirectory: data/FaceSwap/356_324
+2025-06-18 07:54:39,066 - INFO - Found subdirectory: data/FaceSwap/224_197
+2025-06-18 07:54:39,066 - INFO - Found subdirectory: data/FaceSwap/463_464
+2025-06-18 07:54:39,066 - INFO - Found subdirectory: data/FaceSwap/487_477
+2025-06-18 07:54:39,066 - INFO - Found subdirectory: data/FaceSwap/640_638
+2025-06-18 07:54:39,066 - INFO - Found subdirectory: data/FaceSwap/098_092
+2025-06-18 07:54:39,066 - INFO - Found subdirectory: data/FaceSwap/484_415
+2025-06-18 07:54:39,066 - INFO - Found subdirectory: data/FaceSwap/052_108
+2025-06-18 07:54:39,067 - INFO - Found subdirectory: data/FaceSwap/234_187
+2025-06-18 07:54:39,067 - INFO - Found subdirectory: data/FaceSwap/250_461
+2025-06-18 07:54:39,067 - INFO - Found subdirectory: data/FaceSwap/381_376
+2025-06-18 07:54:39,068 - INFO - Found subdirectory: data/FaceSwap/543_559
+2025-06-18 07:54:39,068 - INFO - Found subdirectory: data/FaceSwap/199_181
+2025-06-18 07:54:39,069 - INFO - Found subdirectory: data/FaceSwap/163_031
+2025-06-18 07:54:39,069 - INFO - Found subdirectory: data/FaceSwap/082_103
+2025-06-18 07:54:39,069 - INFO - Found subdirectory: data/FaceSwap/213_083
+2025-06-18 07:54:39,069 - INFO - Found subdirectory: data/FaceSwap/181_199
+2025-06-18 07:54:39,069 - INFO - Found subdirectory: data/FaceSwap/130_139
+2025-06-18 07:54:39,070 - INFO - Found subdirectory: data/FaceSwap/192_134
+2025-06-18 07:54:39,070 - INFO - Found subdirectory: data/FaceSwap/969_897
+2025-06-18 07:54:39,071 - INFO - Found subdirectory: data/FaceSwap/103_082
+2025-06-18 07:54:39,071 - INFO - Found subdirectory: data/FaceSwap/307_365
+2025-06-18 07:54:39,071 - INFO - Found subdirectory: data/FaceSwap/304_300
+2025-06-18 07:54:39,072 - INFO - Found subdirectory: data/FaceSwap/763_930
+2025-06-18 07:54:39,072 - INFO - Found subdirectory: data/FaceSwap/361_448
+2025-06-18 07:54:39,072 - INFO - Found subdirectory: data/FaceSwap/319_352
+2025-06-18 07:54:39,072 - INFO - Found subdirectory: data/FaceSwap/202_348
+2025-06-18 07:54:39,072 - INFO - Found subdirectory: data/FaceSwap/710_788
+2025-06-18 07:54:39,073 - INFO - Found subdirectory: data/FaceSwap/127_129
+2025-06-18 07:54:39,073 - INFO - Found subdirectory: data/FaceSwap/868_949
+2025-06-18 07:54:39,073 - INFO - Found subdirectory: data/FaceSwap/152_149
+2025-06-18 07:54:39,073 - INFO - Found subdirectory: data/FaceSwap/621_546
+2025-06-18 07:54:39,073 - INFO - Found subdirectory: data/FaceSwap/857_909
+2025-06-18 07:54:39,073 - INFO - Found subdirectory: data/FaceSwap/439_441
+2025-06-18 07:54:39,074 - INFO - Found subdirectory: data/FaceSwap/349_350
+2025-06-18 07:54:39,074 - INFO - Found subdirectory: data/FaceSwap/219_220
+2025-06-18 07:54:39,074 - INFO - Found subdirectory: data/FaceSwap/504_502
+2025-06-18 07:54:39,074 - INFO - Found subdirectory: data/FaceSwap/018_019
+2025-06-18 07:54:39,074 - INFO - Found subdirectory: data/FaceSwap/938_987
+2025-06-18 07:54:39,074 - INFO - Found subdirectory: data/FaceSwap/845_846
+2025-06-18 07:54:39,074 - INFO - Found subdirectory: data/FaceSwap/623_630
+2025-06-18 07:54:39,075 - INFO - Found subdirectory: data/FaceSwap/527_454
+2025-06-18 07:54:39,075 - INFO - Found subdirectory: data/FaceSwap/366_473
+2025-06-18 07:54:39,075 - INFO - Found subdirectory: data/FaceSwap/443_514
+2025-06-18 07:54:39,075 - INFO - Found subdirectory: data/FaceSwap/891_876
+2025-06-18 07:54:39,075 - INFO - Found subdirectory: data/FaceSwap/843_859
+2025-06-18 07:54:39,075 - INFO - Found subdirectory: data/FaceSwap/391_406
+2025-06-18 07:54:39,075 - INFO - Found subdirectory: data/FaceSwap/800_840
+2025-06-18 07:54:39,076 - INFO - Found subdirectory: data/FaceSwap/611_760
+2025-06-18 07:54:39,076 - INFO - Found subdirectory: data/FaceSwap/832_762
+2025-06-18 07:54:39,076 - INFO - Found subdirectory: data/FaceSwap/486_680
+2025-06-18 07:54:39,076 - INFO - Found subdirectory: data/FaceSwap/642_635
+2025-06-18 07:54:39,076 - INFO - Found subdirectory: data/FaceSwap/324_356
+2025-06-18 07:54:39,077 - INFO - Found subdirectory: data/FaceSwap/489_022
+2025-06-18 07:54:39,077 - INFO - Found subdirectory: data/FaceSwap/977_075
+2025-06-18 07:54:39,077 - INFO - Found subdirectory: data/FaceSwap/955_078
+2025-06-18 07:54:39,077 - INFO - Found subdirectory: data/FaceSwap/636_578
+2025-06-18 07:54:39,077 - INFO - Found subdirectory: data/FaceSwap/983_113
+2025-06-18 07:54:39,078 - INFO - Found subdirectory: data/FaceSwap/338_336
+2025-06-18 07:54:39,078 - INFO - Found subdirectory: data/FaceSwap/770_791
+2025-06-18 07:54:39,078 - INFO - Found subdirectory: data/FaceSwap/131_518
+2025-06-18 07:54:39,078 - INFO - Found subdirectory: data/FaceSwap/943_942
+2025-06-18 07:54:39,079 - INFO - Found subdirectory: data/FaceSwap/376_381
+2025-06-18 07:54:39,079 - INFO - Found subdirectory: data/FaceSwap/985_981
+2025-06-18 07:54:39,079 - INFO - Found subdirectory: data/FaceSwap/674_744
+2025-06-18 07:54:39,079 - INFO - Found subdirectory: data/FaceSwap/964_174
+2025-06-18 07:54:39,079 - INFO - Found subdirectory: data/FaceSwap/145_299
+2025-06-18 07:54:39,080 - INFO - Found subdirectory: data/FaceSwap/874_291
+2025-06-18 07:54:39,080 - INFO - Found subdirectory: data/FaceSwap/396_272
+2025-06-18 07:54:39,080 - INFO - Found subdirectory: data/FaceSwap/189_200
+2025-06-18 07:54:39,080 - INFO - Found subdirectory: data/FaceSwap/040_997
+2025-06-18 07:54:39,080 - INFO - Found subdirectory: data/FaceSwap/965_948
+2025-06-18 07:54:39,080 - INFO - Found subdirectory: data/FaceSwap/317_359
+2025-06-18 07:54:39,081 - INFO - Found subdirectory: data/FaceSwap/921_569
+2025-06-18 07:54:39,081 - INFO - Found subdirectory: data/FaceSwap/604_703
+2025-06-18 07:54:39,081 - INFO - Found subdirectory: data/FaceSwap/170_186
+2025-06-18 07:54:39,081 - INFO - Found subdirectory: data/FaceSwap/254_261
+2025-06-18 07:54:39,082 - INFO - Found subdirectory: data/FaceSwap/677_671
+2025-06-18 07:54:39,082 - INFO - Found subdirectory: data/FaceSwap/221_206
+2025-06-18 07:54:39,082 - INFO - Found subdirectory: data/FaceSwap/992_980
+2025-06-18 07:54:39,083 - INFO - Found subdirectory: data/FaceSwap/299_145
+2025-06-18 07:54:39,083 - INFO - Found subdirectory: data/FaceSwap/179_212
+2025-06-18 07:54:39,083 - INFO - Found subdirectory: data/FaceSwap/488_399
+2025-06-18 07:54:39,083 - INFO - Found subdirectory: data/FaceSwap/826_833
+2025-06-18 07:54:39,084 - INFO - Found subdirectory: data/FaceSwap/438_434
+2025-06-18 07:54:39,084 - INFO - Found subdirectory: data/FaceSwap/882_952
+2025-06-18 07:54:39,084 - INFO - Found subdirectory: data/FaceSwap/453_402
+2025-06-18 07:54:39,084 - INFO - Found subdirectory: data/FaceSwap/633_529
+2025-06-18 07:54:39,084 - INFO - Found subdirectory: data/FaceSwap/455_471
+2025-06-18 07:54:39,084 - INFO - Found subdirectory: data/FaceSwap/719_737
+2025-06-18 07:54:39,084 - INFO - Found subdirectory: data/FaceSwap/491_226
+2025-06-18 07:54:39,085 - INFO - Dataset created with 20200 samples
+2025-06-18 07:54:39,085 - INFO -   Real_youtube: 10100 samples
+2025-06-18 07:54:39,086 - INFO -   FaceSwap: 10100 samples
+2025-06-18 07:54:39,086 - INFO - Starting training...
+2025-06-18 07:55:39,792 - INFO - Using device: cuda
+2025-06-18 07:55:39,792 - INFO - Arguments: Namespace(data_dir='./data', output_dir='./outputs', batch_size=32, epochs=15, lr=0.0001, seed=42, mode='both')
+2025-06-18 07:55:41,206 - INFO - Total parameters: 151,492,675
+2025-06-18 07:55:41,206 - INFO - Trainable parameters: 215,362 (0.14%)
+2025-06-18 07:55:41,206 - INFO - Creating dataset from data
+2025-06-18 07:55:41,206 - INFO - Looking for classes: ['Real_youtube', 'FaceSwap']
+2025-06-18 07:55:41,206 - INFO - Checking directory: data/Real_youtube
+2025-06-18 07:55:41,230 - INFO - Checking directory: data/FaceSwap
+2025-06-18 07:55:41,318 - INFO - Dataset created with 20200 samples
+2025-06-18 07:55:41,318 - INFO -   Real_youtube: 10100 samples
+2025-06-18 07:55:41,318 - INFO -   FaceSwap: 10100 samples
+2025-06-18 07:55:41,319 - INFO - Starting training...
+2025-06-18 07:55:41,962 - INFO - Epoch 1/15, Batch 0, Loss: 0.6839
+2025-06-18 07:55:45,220 - INFO - Epoch 1/15, Batch 50, Loss: 0.7141
+2025-06-18 07:55:48,916 - INFO - Epoch 1/15, Batch 100, Loss: 0.6966
+2025-06-18 07:55:52,152 - INFO - Epoch 1/15, Batch 150, Loss: 0.6796
+2025-06-18 07:55:55,718 - INFO - Epoch 1/15, Batch 200, Loss: 0.6845
+2025-06-18 07:55:59,251 - INFO - Epoch 1/15, Batch 250, Loss: 0.5013
+2025-06-18 07:56:02,699 - INFO - Epoch 1/15, Batch 300, Loss: 0.3419
+2025-06-18 07:56:06,448 - INFO - Epoch 1/15, Batch 350, Loss: 0.1953
+2025-06-18 07:56:09,812 - INFO - Epoch 1/15, Batch 400, Loss: 0.1779
+2025-06-18 07:56:13,450 - INFO - Epoch 1/15, Batch 450, Loss: 0.1182
+2025-06-18 07:56:17,113 - INFO - Epoch 1/15, Batch 500, Loss: 0.0511
+2025-06-18 07:56:20,540 - INFO - Epoch 1/15, Batch 550, Loss: 0.0665
+2025-06-18 07:56:23,957 - INFO - Epoch 1/15, Batch 600, Loss: 0.0581
+2025-06-18 07:56:26,193 - INFO - Epoch 1/15 - Train Loss: 0.3778
+2025-06-18 07:56:26,599 - INFO - Epoch 2/15, Batch 0, Loss: 0.0148
+2025-06-18 07:56:30,169 - INFO - Epoch 2/15, Batch 50, Loss: 0.0241
+2025-06-18 07:56:33,896 - INFO - Epoch 2/15, Batch 100, Loss: 0.0299
+2025-06-18 07:56:37,187 - INFO - Epoch 2/15, Batch 150, Loss: 0.0369
+2025-06-18 07:56:40,731 - INFO - Epoch 2/15, Batch 200, Loss: 0.1719
+2025-06-18 07:56:44,359 - INFO - Epoch 2/15, Batch 250, Loss: 0.0121
+2025-06-18 07:56:47,967 - INFO - Epoch 2/15, Batch 300, Loss: 0.0246
+2025-06-18 07:56:51,755 - INFO - Epoch 2/15, Batch 350, Loss: 0.0169
+2025-06-18 07:56:55,334 - INFO - Epoch 2/15, Batch 400, Loss: 0.0235
+2025-06-18 07:56:59,072 - INFO - Epoch 2/15, Batch 450, Loss: 0.0027
+2025-06-18 07:57:02,565 - INFO - Epoch 2/15, Batch 500, Loss: 0.0106
+2025-06-18 07:57:06,238 - INFO - Epoch 2/15, Batch 550, Loss: 0.0300
+2025-06-18 07:57:09,753 - INFO - Epoch 2/15, Batch 600, Loss: 0.0021
+2025-06-18 07:57:11,888 - INFO - Epoch 2/15 - Train Loss: 0.0261
+2025-06-18 07:57:12,288 - INFO - Epoch 3/15, Batch 0, Loss: 0.0009
+2025-06-18 07:57:15,784 - INFO - Epoch 3/15, Batch 50, Loss: 0.0801
+2025-06-18 07:57:19,556 - INFO - Epoch 3/15, Batch 100, Loss: 0.0048
+2025-06-18 07:57:22,903 - INFO - Epoch 3/15, Batch 150, Loss: 0.0014
+2025-06-18 07:57:26,675 - INFO - Epoch 3/15, Batch 200, Loss: 0.0006
+2025-06-18 07:57:30,090 - INFO - Epoch 3/15, Batch 250, Loss: 0.0008
+2025-06-18 07:57:33,648 - INFO - Epoch 3/15, Batch 300, Loss: 0.0014
+2025-06-18 07:57:37,280 - INFO - Epoch 3/15, Batch 350, Loss: 0.0003
+2025-06-18 07:57:40,672 - INFO - Epoch 3/15, Batch 400, Loss: 0.0003
+2025-06-18 07:57:44,533 - INFO - Epoch 3/15, Batch 450, Loss: 0.0014
+2025-06-18 07:57:48,030 - INFO - Epoch 3/15, Batch 500, Loss: 0.0025
+2025-06-18 07:57:51,558 - INFO - Epoch 3/15, Batch 550, Loss: 0.0025
+2025-06-18 07:57:55,110 - INFO - Epoch 3/15, Batch 600, Loss: 0.0003
+2025-06-18 07:57:57,293 - INFO - Epoch 3/15 - Train Loss: 0.0071
+2025-06-18 07:57:57,655 - INFO - Epoch 4/15, Batch 0, Loss: 0.0428
+2025-06-18 07:58:01,253 - INFO - Epoch 4/15, Batch 50, Loss: 0.0002
+2025-06-18 07:58:04,941 - INFO - Epoch 4/15, Batch 100, Loss: 0.0012
+2025-06-18 07:58:08,217 - INFO - Epoch 4/15, Batch 150, Loss: 0.0002
+2025-06-18 07:58:11,891 - INFO - Epoch 4/15, Batch 200, Loss: 0.0003
+2025-06-18 07:58:15,465 - INFO - Epoch 4/15, Batch 250, Loss: 0.0002
+2025-06-18 07:58:19,062 - INFO - Epoch 4/15, Batch 300, Loss: 0.0011
+2025-06-18 07:58:22,802 - INFO - Epoch 4/15, Batch 350, Loss: 0.0009
+2025-06-18 07:58:26,310 - INFO - Epoch 4/15, Batch 400, Loss: 0.0152
+2025-06-18 07:58:29,750 - INFO - Epoch 4/15, Batch 450, Loss: 0.0004
+2025-06-18 07:58:33,359 - INFO - Epoch 4/15, Batch 500, Loss: 0.0039
+2025-06-18 07:58:36,916 - INFO - Epoch 4/15, Batch 550, Loss: 0.0001
+2025-06-18 07:58:40,449 - INFO - Epoch 4/15, Batch 600, Loss: 0.0002
+2025-06-18 07:58:42,676 - INFO - Epoch 4/15 - Train Loss: 0.0037
+2025-06-18 07:58:43,026 - INFO - Epoch 5/15, Batch 0, Loss: 0.0003
+2025-06-18 07:58:46,652 - INFO - Epoch 5/15, Batch 50, Loss: 0.0040
+2025-06-18 07:58:50,163 - INFO - Epoch 5/15, Batch 100, Loss: 0.0005
+2025-06-18 07:58:53,789 - INFO - Epoch 5/15, Batch 150, Loss: 0.0002
+2025-06-18 07:58:57,244 - INFO - Epoch 5/15, Batch 200, Loss: 0.0008
+2025-06-18 07:59:00,860 - INFO - Epoch 5/15, Batch 250, Loss: 0.0026
+2025-06-18 07:59:04,358 - INFO - Epoch 5/15, Batch 300, Loss: 0.0003
+2025-06-18 07:59:08,065 - INFO - Epoch 5/15, Batch 350, Loss: 0.0002
+2025-06-18 07:59:11,642 - INFO - Epoch 5/15, Batch 400, Loss: 0.0001
+2025-06-18 07:59:15,259 - INFO - Epoch 5/15, Batch 450, Loss: 0.0003
+2025-06-18 07:59:18,814 - INFO - Epoch 5/15, Batch 500, Loss: 0.0002
+2025-06-18 07:59:22,402 - INFO - Epoch 5/15, Batch 550, Loss: 0.0001
+2025-06-18 07:59:26,102 - INFO - Epoch 5/15, Batch 600, Loss: 0.0001
+2025-06-18 07:59:28,153 - INFO - Epoch 5/15 - Train Loss: 0.0019
+2025-06-18 07:59:28,474 - INFO - Checkpoint saved: checkpoint_epoch_5.pth
+2025-06-18 07:59:28,764 - INFO - Epoch 6/15, Batch 0, Loss: 0.0000
+2025-06-18 07:59:32,106 - INFO - Epoch 6/15, Batch 50, Loss: 0.0001
+2025-06-18 07:59:35,733 - INFO - Epoch 6/15, Batch 100, Loss: 0.0034
+2025-06-18 07:59:39,250 - INFO - Epoch 6/15, Batch 150, Loss: 0.0001
+2025-06-18 07:59:42,746 - INFO - Epoch 6/15, Batch 200, Loss: 0.0001
+2025-06-18 07:59:46,394 - INFO - Epoch 6/15, Batch 250, Loss: 0.0001
+2025-06-18 07:59:50,231 - INFO - Epoch 6/15, Batch 300, Loss: 0.0000
+2025-06-18 07:59:53,692 - INFO - Epoch 6/15, Batch 350, Loss: 0.0000
+2025-06-18 07:59:57,263 - INFO - Epoch 6/15, Batch 400, Loss: 0.0001
+2025-06-18 08:00:00,961 - INFO - Epoch 6/15, Batch 450, Loss: 0.0013
+2025-06-18 08:00:04,567 - INFO - Epoch 6/15, Batch 500, Loss: 0.0014
+2025-06-18 08:00:08,222 - INFO - Epoch 6/15, Batch 550, Loss: 0.0001
+2025-06-18 08:00:11,850 - INFO - Epoch 6/15, Batch 600, Loss: 0.0001
+2025-06-18 08:00:13,932 - INFO - Epoch 6/15 - Train Loss: 0.0013
+2025-06-18 08:00:14,258 - INFO - Epoch 7/15, Batch 0, Loss: 0.0000
+2025-06-18 08:00:17,910 - INFO - Epoch 7/15, Batch 50, Loss: 0.0006
+2025-06-18 08:00:21,455 - INFO - Epoch 7/15, Batch 100, Loss: 0.0001
+2025-06-18 08:00:25,163 - INFO - Epoch 7/15, Batch 150, Loss: 0.0001
+2025-06-18 08:00:28,864 - INFO - Epoch 7/15, Batch 200, Loss: 0.0003
+2025-06-18 08:00:32,350 - INFO - Epoch 7/15, Batch 250, Loss: 0.0001
+2025-06-18 08:00:36,039 - INFO - Epoch 7/15, Batch 300, Loss: 0.0001
+2025-06-18 08:00:39,769 - INFO - Epoch 7/15, Batch 350, Loss: 0.0001
+2025-06-18 08:00:43,250 - INFO - Epoch 7/15, Batch 400, Loss: 0.0006
+2025-06-18 08:00:47,082 - INFO - Epoch 7/15, Batch 450, Loss: 0.0002
+2025-06-18 08:00:50,629 - INFO - Epoch 7/15, Batch 500, Loss: 0.0000
+2025-06-18 08:00:54,391 - INFO - Epoch 7/15, Batch 550, Loss: 0.0006
+2025-06-18 08:00:57,909 - INFO - Epoch 7/15, Batch 600, Loss: 0.0000
+2025-06-18 08:01:00,346 - INFO - Epoch 7/15 - Train Loss: 0.0009
+2025-06-18 08:01:00,773 - INFO - Epoch 8/15, Batch 0, Loss: 0.0000
+2025-06-18 08:01:04,346 - INFO - Epoch 8/15, Batch 50, Loss: 0.0000
+2025-06-18 08:01:08,099 - INFO - Epoch 8/15, Batch 100, Loss: 0.0000
+2025-06-18 08:01:11,569 - INFO - Epoch 8/15, Batch 150, Loss: 0.0002
+2025-06-18 08:01:15,298 - INFO - Epoch 8/15, Batch 200, Loss: 0.0000
+2025-06-18 08:01:18,871 - INFO - Epoch 8/15, Batch 250, Loss: 0.0002
+2025-06-18 08:01:22,261 - INFO - Epoch 8/15, Batch 300, Loss: 0.0000
+2025-06-18 08:01:26,013 - INFO - Epoch 8/15, Batch 350, Loss: 0.0000
+2025-06-18 08:01:29,357 - INFO - Epoch 8/15, Batch 400, Loss: 0.0002
+2025-06-18 08:01:32,885 - INFO - Epoch 8/15, Batch 450, Loss: 0.0000
+2025-06-18 08:01:36,500 - INFO - Epoch 8/15, Batch 500, Loss: 0.0000
+2025-06-18 08:01:40,270 - INFO - Epoch 8/15, Batch 550, Loss: 0.0002
+2025-06-18 08:01:43,850 - INFO - Epoch 8/15, Batch 600, Loss: 0.0001
+2025-06-18 08:01:45,790 - INFO - Epoch 8/15 - Train Loss: 0.0004
+2025-06-18 08:01:46,102 - INFO - Epoch 9/15, Batch 0, Loss: 0.0002
+2025-06-18 08:01:49,433 - INFO - Epoch 9/15, Batch 50, Loss: 0.0000
+2025-06-18 08:01:53,300 - INFO - Epoch 9/15, Batch 100, Loss: 0.0000
+2025-06-18 08:01:56,609 - INFO - Epoch 9/15, Batch 150, Loss: 0.0000
+2025-06-18 08:02:00,304 - INFO - Epoch 9/15, Batch 200, Loss: 0.0000
+2025-06-18 08:02:03,794 - INFO - Epoch 9/15, Batch 250, Loss: 0.0000
+2025-06-18 08:02:07,302 - INFO - Epoch 9/15, Batch 300, Loss: 0.0000
+2025-06-18 08:02:11,124 - INFO - Epoch 9/15, Batch 350, Loss: 0.0005
+2025-06-18 08:02:14,638 - INFO - Epoch 9/15, Batch 400, Loss: 0.0000
+2025-06-18 08:02:18,588 - INFO - Epoch 9/15, Batch 450, Loss: 0.0000
+2025-06-18 08:02:22,198 - INFO - Epoch 9/15, Batch 500, Loss: 0.0000
+2025-06-18 08:02:25,736 - INFO - Epoch 9/15, Batch 550, Loss: 0.0000
+2025-06-18 08:02:29,250 - INFO - Epoch 9/15, Batch 600, Loss: 0.0000
+2025-06-18 08:02:31,544 - INFO - Epoch 9/15 - Train Loss: 0.0002
+2025-06-18 08:02:31,865 - INFO - Epoch 10/15, Batch 0, Loss: 0.0000
+2025-06-18 08:02:35,674 - INFO - Epoch 10/15, Batch 50, Loss: 0.0000
+2025-06-18 08:02:39,340 - INFO - Epoch 10/15, Batch 100, Loss: 0.0000
+2025-06-18 08:02:42,936 - INFO - Epoch 10/15, Batch 150, Loss: 0.0003
+2025-06-18 08:02:46,421 - INFO - Epoch 10/15, Batch 200, Loss: 0.0000
+2025-06-18 08:02:50,183 - INFO - Epoch 10/15, Batch 250, Loss: 0.0000
+2025-06-18 08:02:53,619 - INFO - Epoch 10/15, Batch 300, Loss: 0.0000
+2025-06-18 08:02:57,375 - INFO - Epoch 10/15, Batch 350, Loss: 0.0000
+2025-06-18 08:03:00,842 - INFO - Epoch 10/15, Batch 400, Loss: 0.0000
+2025-06-18 08:03:04,591 - INFO - Epoch 10/15, Batch 450, Loss: 0.0001
+2025-06-18 08:03:08,188 - INFO - Epoch 10/15, Batch 500, Loss: 0.0000
+2025-06-18 08:03:11,851 - INFO - Epoch 10/15, Batch 550, Loss: 0.0000
+2025-06-18 08:03:15,450 - INFO - Epoch 10/15, Batch 600, Loss: 0.0014
+2025-06-18 08:03:17,619 - INFO - Epoch 10/15 - Train Loss: 0.0002
+2025-06-18 08:03:17,941 - INFO - Checkpoint saved: checkpoint_epoch_10.pth
+2025-06-18 08:03:18,292 - INFO - Epoch 11/15, Batch 0, Loss: 0.0000
+2025-06-18 08:03:21,903 - INFO - Epoch 11/15, Batch 50, Loss: 0.0000
+2025-06-18 08:03:25,604 - INFO - Epoch 11/15, Batch 100, Loss: 0.0000
+2025-06-18 08:03:28,958 - INFO - Epoch 11/15, Batch 150, Loss: 0.0000
+2025-06-18 08:03:32,368 - INFO - Epoch 11/15, Batch 200, Loss: 0.0000
+2025-06-18 08:03:36,040 - INFO - Epoch 11/15, Batch 250, Loss: 0.0000
+2025-06-18 08:03:39,836 - INFO - Epoch 11/15, Batch 300, Loss: 0.0000
+2025-06-18 08:03:43,416 - INFO - Epoch 11/15, Batch 350, Loss: 0.0000
+2025-06-18 08:03:47,184 - INFO - Epoch 11/15, Batch 400, Loss: 0.0000
+2025-06-18 08:03:50,613 - INFO - Epoch 11/15, Batch 450, Loss: 0.0000
+2025-06-18 08:03:54,282 - INFO - Epoch 11/15, Batch 500, Loss: 0.0000
+2025-06-18 08:03:57,786 - INFO - Epoch 11/15, Batch 550, Loss: 0.0000
+2025-06-18 08:04:01,471 - INFO - Epoch 11/15, Batch 600, Loss: 0.0000
+2025-06-18 08:04:03,651 - INFO - Epoch 11/15 - Train Loss: 0.0001
+2025-06-18 08:04:04,032 - INFO - Epoch 12/15, Batch 0, Loss: 0.0005
+2025-06-18 08:04:07,597 - INFO - Epoch 12/15, Batch 50, Loss: 0.0000
+2025-06-18 08:04:11,177 - INFO - Epoch 12/15, Batch 100, Loss: 0.0000
+2025-06-18 08:04:14,751 - INFO - Epoch 12/15, Batch 150, Loss: 0.0000
+2025-06-18 08:04:18,493 - INFO - Epoch 12/15, Batch 200, Loss: 0.0000
+2025-06-18 08:04:21,953 - INFO - Epoch 12/15, Batch 250, Loss: 0.0001
+2025-06-18 08:04:25,514 - INFO - Epoch 12/15, Batch 300, Loss: 0.0000
+2025-06-18 08:04:29,122 - INFO - Epoch 12/15, Batch 350, Loss: 0.0000
+2025-06-18 08:04:32,859 - INFO - Epoch 12/15, Batch 400, Loss: 0.0000
+2025-06-18 08:04:36,295 - INFO - Epoch 12/15, Batch 450, Loss: 0.0000
+2025-06-18 08:04:39,931 - INFO - Epoch 12/15, Batch 500, Loss: 0.0000
+2025-06-18 08:04:43,638 - INFO - Epoch 12/15, Batch 550, Loss: 0.0000
+2025-06-18 08:04:47,408 - INFO - Epoch 12/15, Batch 600, Loss: 0.0000
+2025-06-18 08:04:49,473 - INFO - Epoch 12/15 - Train Loss: 0.0001
+2025-06-18 08:04:49,818 - INFO - Epoch 13/15, Batch 0, Loss: 0.0000
+2025-06-18 08:04:53,416 - INFO - Epoch 13/15, Batch 50, Loss: 0.0000
+2025-06-18 08:04:57,184 - INFO - Epoch 13/15, Batch 100, Loss: 0.0000
+2025-06-18 08:05:00,600 - INFO - Epoch 13/15, Batch 150, Loss: 0.0000
+2025-06-18 08:05:04,059 - INFO - Epoch 13/15, Batch 200, Loss: 0.0000
+2025-06-18 08:05:07,635 - INFO - Epoch 13/15, Batch 250, Loss: 0.0000
+2025-06-18 08:05:11,146 - INFO - Epoch 13/15, Batch 300, Loss: 0.0000
+2025-06-18 08:05:14,711 - INFO - Epoch 13/15, Batch 350, Loss: 0.0000
+2025-06-18 08:05:18,605 - INFO - Epoch 13/15, Batch 400, Loss: 0.0000
+2025-06-18 08:05:22,193 - INFO - Epoch 13/15, Batch 450, Loss: 0.0000
+2025-06-18 08:05:26,034 - INFO - Epoch 13/15, Batch 500, Loss: 0.0000
+2025-06-18 08:05:29,597 - INFO - Epoch 13/15, Batch 550, Loss: 0.0000
+2025-06-18 08:05:33,304 - INFO - Epoch 13/15, Batch 600, Loss: 0.0000
+2025-06-18 08:05:35,402 - INFO - Epoch 13/15 - Train Loss: 0.0001
+2025-06-18 08:05:35,756 - INFO - Epoch 14/15, Batch 0, Loss: 0.0069
+2025-06-18 08:05:39,338 - INFO - Epoch 14/15, Batch 50, Loss: 0.0000
+2025-06-18 08:05:42,948 - INFO - Epoch 14/15, Batch 100, Loss: 0.0000
+2025-06-18 08:05:46,547 - INFO - Epoch 14/15, Batch 150, Loss: 0.0000
+2025-06-18 08:05:50,156 - INFO - Epoch 14/15, Batch 200, Loss: 0.0000
+2025-06-18 08:05:53,809 - INFO - Epoch 14/15, Batch 250, Loss: 0.0000
+2025-06-18 08:05:57,441 - INFO - Epoch 14/15, Batch 300, Loss: 0.0000
+2025-06-18 08:06:00,998 - INFO - Epoch 14/15, Batch 350, Loss: 0.0004
+2025-06-18 08:06:04,648 - INFO - Epoch 14/15, Batch 400, Loss: 0.0000
+2025-06-18 08:06:08,139 - INFO - Epoch 14/15, Batch 450, Loss: 0.0000
+2025-06-18 08:06:11,943 - INFO - Epoch 14/15, Batch 500, Loss: 0.0000
+2025-06-18 08:06:15,391 - INFO - Epoch 14/15, Batch 550, Loss: 0.0000
+2025-06-18 08:06:19,172 - INFO - Epoch 14/15, Batch 600, Loss: 0.0000
+2025-06-18 08:06:21,157 - INFO - Epoch 14/15 - Train Loss: 0.0000
+2025-06-18 08:06:21,528 - INFO - Epoch 15/15, Batch 0, Loss: 0.0000
+2025-06-18 08:06:25,127 - INFO - Epoch 15/15, Batch 50, Loss: 0.0001
+2025-06-18 08:06:28,996 - INFO - Epoch 15/15, Batch 100, Loss: 0.0000
+2025-06-18 08:06:32,599 - INFO - Epoch 15/15, Batch 150, Loss: 0.0001
+2025-06-18 08:06:36,045 - INFO - Epoch 15/15, Batch 200, Loss: 0.0000
+2025-06-18 08:06:39,644 - INFO - Epoch 15/15, Batch 250, Loss: 0.0000
+2025-06-18 08:06:43,110 - INFO - Epoch 15/15, Batch 300, Loss: 0.0000
+2025-06-18 08:06:46,796 - INFO - Epoch 15/15, Batch 350, Loss: 0.0000
+2025-06-18 08:06:50,349 - INFO - Epoch 15/15, Batch 400, Loss: 0.0000
+2025-06-18 08:06:54,064 - INFO - Epoch 15/15, Batch 450, Loss: 0.0000
+2025-06-18 08:06:57,450 - INFO - Epoch 15/15, Batch 500, Loss: 0.0000
+2025-06-18 08:07:01,337 - INFO - Epoch 15/15, Batch 550, Loss: 0.0000
+2025-06-18 08:07:04,907 - INFO - Epoch 15/15, Batch 600, Loss: 0.0000
+2025-06-18 08:07:07,347 - INFO - Epoch 15/15 - Train Loss: 0.0000
+2025-06-18 08:07:07,692 - INFO - Checkpoint saved: checkpoint_epoch_15.pth
+2025-06-18 08:07:08,040 - INFO - Training completed!
+2025-06-18 08:07:08,223 - INFO - Loaded model from ./outputs/final_model.pth
+2025-06-18 08:07:08,223 - INFO - Creating dataset from data
+2025-06-18 08:07:08,223 - INFO - Looking for classes: ['NeuralTextures']
+2025-06-18 08:07:08,223 - INFO - Checking directory: data/NeuralTextures
+2025-06-18 08:07:08,246 - INFO - Dataset created with 10100 samples
+2025-06-18 08:07:08,246 - INFO -   NeuralTextures: 10100 samples
+2025-06-18 08:07:08,247 - INFO - Starting evaluation...
+2025-06-18 08:09:38,579 - INFO - Using device: cuda
+2025-06-18 08:09:38,579 - INFO - Arguments: Namespace(data_dir='./data', output_dir='./outputs', batch_size=32, epochs=15, lr=0.0001, seed=42, mode='both')
+2025-06-18 08:09:40,048 - INFO - Total parameters: 151,492,675
+2025-06-18 08:09:40,048 - INFO - Trainable parameters: 215,362 (0.14%)
+2025-06-18 08:09:40,048 - INFO - Creating dataset from data
+2025-06-18 08:09:40,048 - INFO - Looking for classes: ['Real_youtube', 'FaceSwap']
+2025-06-18 08:09:40,048 - INFO - Checking directory: data/Real_youtube
+2025-06-18 08:09:40,073 - INFO - Checking directory: data/FaceSwap
+2025-06-18 08:09:40,170 - INFO - Dataset created with 20200 samples
+2025-06-18 08:09:40,170 - INFO -   Real_youtube: 10100 samples
+2025-06-18 08:09:40,171 - INFO -   FaceSwap: 10100 samples
+2025-06-18 08:09:40,171 - INFO - Starting training...
+2025-06-18 08:09:40,838 - INFO - Epoch 1/15, Batch 0, Loss: 0.6839
+2025-06-18 08:09:44,130 - INFO - Epoch 1/15, Batch 50, Loss: 0.7141
+2025-06-18 08:09:47,975 - INFO - Epoch 1/15, Batch 100, Loss: 0.6966
+2025-06-18 08:09:51,416 - INFO - Epoch 1/15, Batch 150, Loss: 0.6796
+2025-06-18 08:09:55,018 - INFO - Epoch 1/15, Batch 200, Loss: 0.6845
+2025-06-18 08:09:58,551 - INFO - Epoch 1/15, Batch 250, Loss: 0.5013
+2025-06-18 08:10:02,110 - INFO - Epoch 1/15, Batch 300, Loss: 0.3419
+2025-06-18 08:10:05,949 - INFO - Epoch 1/15, Batch 350, Loss: 0.1953
+2025-06-18 08:10:09,389 - INFO - Epoch 1/15, Batch 400, Loss: 0.1779
+2025-06-18 08:10:13,159 - INFO - Epoch 1/15, Batch 450, Loss: 0.1182
+2025-06-18 08:10:16,864 - INFO - Epoch 1/15, Batch 500, Loss: 0.0511
+2025-06-18 08:10:20,303 - INFO - Epoch 1/15, Batch 550, Loss: 0.0665
+2025-06-18 08:10:23,804 - INFO - Epoch 1/15, Batch 600, Loss: 0.0581
+2025-06-18 08:10:26,117 - INFO - Epoch 1/15 - Train Loss: 0.3778
+2025-06-18 08:10:26,532 - INFO - Epoch 2/15, Batch 0, Loss: 0.0148
+2025-06-18 08:10:30,092 - INFO - Epoch 2/15, Batch 50, Loss: 0.0241
+2025-06-18 08:10:33,753 - INFO - Epoch 2/15, Batch 100, Loss: 0.0299
+2025-06-18 08:10:37,022 - INFO - Epoch 2/15, Batch 150, Loss: 0.0369
+2025-06-18 08:10:40,589 - INFO - Epoch 2/15, Batch 200, Loss: 0.1719
+2025-06-18 08:10:44,286 - INFO - Epoch 2/15, Batch 250, Loss: 0.0121
+2025-06-18 08:10:47,908 - INFO - Epoch 2/15, Batch 300, Loss: 0.0246
+2025-06-18 08:10:51,707 - INFO - Epoch 2/15, Batch 350, Loss: 0.0169
+2025-06-18 08:10:55,304 - INFO - Epoch 2/15, Batch 400, Loss: 0.0235
+2025-06-18 08:10:59,055 - INFO - Epoch 2/15, Batch 450, Loss: 0.0027
+2025-06-18 08:11:02,593 - INFO - Epoch 2/15, Batch 500, Loss: 0.0106
+2025-06-18 08:11:06,320 - INFO - Epoch 2/15, Batch 550, Loss: 0.0300
+2025-06-18 08:11:09,883 - INFO - Epoch 2/15, Batch 600, Loss: 0.0021
+2025-06-18 08:11:12,036 - INFO - Epoch 2/15 - Train Loss: 0.0261
+2025-06-18 08:11:12,438 - INFO - Epoch 3/15, Batch 0, Loss: 0.0009
+2025-06-18 08:11:15,897 - INFO - Epoch 3/15, Batch 50, Loss: 0.0801
+2025-06-18 08:11:19,658 - INFO - Epoch 3/15, Batch 100, Loss: 0.0048
+2025-06-18 08:11:23,037 - INFO - Epoch 3/15, Batch 150, Loss: 0.0014
+2025-06-18 08:11:26,794 - INFO - Epoch 3/15, Batch 200, Loss: 0.0006
+2025-06-18 08:11:30,255 - INFO - Epoch 3/15, Batch 250, Loss: 0.0008
+2025-06-18 08:11:33,903 - INFO - Epoch 3/15, Batch 300, Loss: 0.0014
+2025-06-18 08:11:37,618 - INFO - Epoch 3/15, Batch 350, Loss: 0.0003
+2025-06-18 08:11:41,022 - INFO - Epoch 3/15, Batch 400, Loss: 0.0003
+2025-06-18 08:11:44,864 - INFO - Epoch 3/15, Batch 450, Loss: 0.0014
+2025-06-18 08:11:48,516 - INFO - Epoch 3/15, Batch 500, Loss: 0.0025
+2025-06-18 08:11:52,092 - INFO - Epoch 3/15, Batch 550, Loss: 0.0025
+2025-06-18 08:11:55,590 - INFO - Epoch 3/15, Batch 600, Loss: 0.0003
+2025-06-18 08:11:57,779 - INFO - Epoch 3/15 - Train Loss: 0.0071
+2025-06-18 08:11:58,142 - INFO - Epoch 4/15, Batch 0, Loss: 0.0428
+2025-06-18 08:12:01,685 - INFO - Epoch 4/15, Batch 50, Loss: 0.0002
+2025-06-18 08:12:05,344 - INFO - Epoch 4/15, Batch 100, Loss: 0.0012
+2025-06-18 08:12:08,823 - INFO - Epoch 4/15, Batch 150, Loss: 0.0002
+2025-06-18 08:12:12,371 - INFO - Epoch 4/15, Batch 200, Loss: 0.0003
+2025-06-18 08:12:15,961 - INFO - Epoch 4/15, Batch 250, Loss: 0.0002
+2025-06-18 08:12:19,554 - INFO - Epoch 4/15, Batch 300, Loss: 0.0011
+2025-06-18 08:12:23,341 - INFO - Epoch 4/15, Batch 350, Loss: 0.0009
+2025-06-18 08:12:26,772 - INFO - Epoch 4/15, Batch 400, Loss: 0.0152
+2025-06-18 08:12:30,440 - INFO - Epoch 4/15, Batch 450, Loss: 0.0004
+2025-06-18 08:12:34,129 - INFO - Epoch 4/15, Batch 500, Loss: 0.0039
+2025-06-18 08:12:37,820 - INFO - Epoch 4/15, Batch 550, Loss: 0.0001
+2025-06-18 08:12:41,378 - INFO - Epoch 4/15, Batch 600, Loss: 0.0002
+2025-06-18 08:12:43,625 - INFO - Epoch 4/15 - Train Loss: 0.0037
+2025-06-18 08:12:43,989 - INFO - Epoch 5/15, Batch 0, Loss: 0.0003
+2025-06-18 08:12:47,612 - INFO - Epoch 5/15, Batch 50, Loss: 0.0040
+2025-06-18 08:12:51,224 - INFO - Epoch 5/15, Batch 100, Loss: 0.0005
+2025-06-18 08:12:54,786 - INFO - Epoch 5/15, Batch 150, Loss: 0.0002
+2025-06-18 08:12:58,270 - INFO - Epoch 5/15, Batch 200, Loss: 0.0008
+2025-06-18 08:13:01,836 - INFO - Epoch 5/15, Batch 250, Loss: 0.0026
+2025-06-18 08:13:05,471 - INFO - Epoch 5/15, Batch 300, Loss: 0.0003
+2025-06-18 08:13:09,080 - INFO - Epoch 5/15, Batch 350, Loss: 0.0002
+2025-06-18 08:13:12,693 - INFO - Epoch 5/15, Batch 400, Loss: 0.0001
+2025-06-18 08:13:16,384 - INFO - Epoch 5/15, Batch 450, Loss: 0.0003
+2025-06-18 08:13:19,947 - INFO - Epoch 5/15, Batch 500, Loss: 0.0002
+2025-06-18 08:13:23,583 - INFO - Epoch 5/15, Batch 550, Loss: 0.0001
+2025-06-18 08:13:27,283 - INFO - Epoch 5/15, Batch 600, Loss: 0.0001
+2025-06-18 08:13:29,311 - INFO - Epoch 5/15 - Train Loss: 0.0019
+2025-06-18 08:13:29,816 - INFO - Checkpoint saved: checkpoint_epoch_5.pth
+2025-06-18 08:13:30,108 - INFO - Epoch 6/15, Batch 0, Loss: 0.0000
+2025-06-18 08:13:33,461 - INFO - Epoch 6/15, Batch 50, Loss: 0.0001
+2025-06-18 08:13:37,135 - INFO - Epoch 6/15, Batch 100, Loss: 0.0034
+2025-06-18 08:13:40,630 - INFO - Epoch 6/15, Batch 150, Loss: 0.0001
+2025-06-18 08:13:44,321 - INFO - Epoch 6/15, Batch 200, Loss: 0.0001
+2025-06-18 08:13:47,975 - INFO - Epoch 6/15, Batch 250, Loss: 0.0001
+2025-06-18 08:13:51,743 - INFO - Epoch 6/15, Batch 300, Loss: 0.0000
+2025-06-18 08:13:55,168 - INFO - Epoch 6/15, Batch 350, Loss: 0.0000
+2025-06-18 08:13:58,702 - INFO - Epoch 6/15, Batch 400, Loss: 0.0001
+2025-06-18 08:14:02,405 - INFO - Epoch 6/15, Batch 450, Loss: 0.0013
+2025-06-18 08:14:06,186 - INFO - Epoch 6/15, Batch 500, Loss: 0.0014
+2025-06-18 08:14:09,848 - INFO - Epoch 6/15, Batch 550, Loss: 0.0001
+2025-06-18 08:14:13,470 - INFO - Epoch 6/15, Batch 600, Loss: 0.0001
+2025-06-18 08:14:15,570 - INFO - Epoch 6/15 - Train Loss: 0.0013
+2025-06-18 08:14:15,899 - INFO - Epoch 7/15, Batch 0, Loss: 0.0000
+2025-06-18 08:14:19,419 - INFO - Epoch 7/15, Batch 50, Loss: 0.0006
+2025-06-18 08:14:23,009 - INFO - Epoch 7/15, Batch 100, Loss: 0.0001
+2025-06-18 08:14:26,706 - INFO - Epoch 7/15, Batch 150, Loss: 0.0001
+2025-06-18 08:14:30,337 - INFO - Epoch 7/15, Batch 200, Loss: 0.0003
+2025-06-18 08:14:33,834 - INFO - Epoch 7/15, Batch 250, Loss: 0.0001
+2025-06-18 08:14:37,485 - INFO - Epoch 7/15, Batch 300, Loss: 0.0001
+2025-06-18 08:14:41,216 - INFO - Epoch 7/15, Batch 350, Loss: 0.0001
+2025-06-18 08:14:44,699 - INFO - Epoch 7/15, Batch 400, Loss: 0.0006
+2025-06-18 08:14:48,532 - INFO - Epoch 7/15, Batch 450, Loss: 0.0002
+2025-06-18 08:14:52,088 - INFO - Epoch 7/15, Batch 500, Loss: 0.0000
+2025-06-18 08:14:55,873 - INFO - Epoch 7/15, Batch 550, Loss: 0.0006
+2025-06-18 08:14:59,411 - INFO - Epoch 7/15, Batch 600, Loss: 0.0000
+2025-06-18 08:15:01,850 - INFO - Epoch 7/15 - Train Loss: 0.0009
+2025-06-18 08:15:02,269 - INFO - Epoch 8/15, Batch 0, Loss: 0.0000
+2025-06-18 08:15:05,851 - INFO - Epoch 8/15, Batch 50, Loss: 0.0000
+2025-06-18 08:15:09,718 - INFO - Epoch 8/15, Batch 100, Loss: 0.0000
+2025-06-18 08:15:13,250 - INFO - Epoch 8/15, Batch 150, Loss: 0.0002
+2025-06-18 08:15:16,988 - INFO - Epoch 8/15, Batch 200, Loss: 0.0000
+2025-06-18 08:15:20,568 - INFO - Epoch 8/15, Batch 250, Loss: 0.0002
+2025-06-18 08:15:24,035 - INFO - Epoch 8/15, Batch 300, Loss: 0.0000
+2025-06-18 08:15:27,849 - INFO - Epoch 8/15, Batch 350, Loss: 0.0000
+2025-06-18 08:15:31,270 - INFO - Epoch 8/15, Batch 400, Loss: 0.0002
+2025-06-18 08:15:34,860 - INFO - Epoch 8/15, Batch 450, Loss: 0.0000
+2025-06-18 08:15:38,428 - INFO - Epoch 8/15, Batch 500, Loss: 0.0000
+2025-06-18 08:15:42,145 - INFO - Epoch 8/15, Batch 550, Loss: 0.0002
+2025-06-18 08:15:45,966 - INFO - Epoch 8/15, Batch 600, Loss: 0.0001
+2025-06-18 08:15:47,875 - INFO - Epoch 8/15 - Train Loss: 0.0004
+2025-06-18 08:15:48,194 - INFO - Epoch 9/15, Batch 0, Loss: 0.0002
+2025-06-18 08:15:51,676 - INFO - Epoch 9/15, Batch 50, Loss: 0.0000
+2025-06-18 08:15:55,553 - INFO - Epoch 9/15, Batch 100, Loss: 0.0000
+2025-06-18 08:15:58,890 - INFO - Epoch 9/15, Batch 150, Loss: 0.0000
+2025-06-18 08:16:02,606 - INFO - Epoch 9/15, Batch 200, Loss: 0.0000
+2025-06-18 08:16:06,224 - INFO - Epoch 9/15, Batch 250, Loss: 0.0000
+2025-06-18 08:16:09,780 - INFO - Epoch 9/15, Batch 300, Loss: 0.0000
+2025-06-18 08:16:13,622 - INFO - Epoch 9/15, Batch 350, Loss: 0.0005
+2025-06-18 08:16:17,139 - INFO - Epoch 9/15, Batch 400, Loss: 0.0000
+2025-06-18 08:16:21,043 - INFO - Epoch 9/15, Batch 450, Loss: 0.0000
+2025-06-18 08:16:24,630 - INFO - Epoch 9/15, Batch 500, Loss: 0.0000
+2025-06-18 08:16:28,334 - INFO - Epoch 9/15, Batch 550, Loss: 0.0000
+2025-06-18 08:16:31,862 - INFO - Epoch 9/15, Batch 600, Loss: 0.0000
+2025-06-18 08:16:34,136 - INFO - Epoch 9/15 - Train Loss: 0.0002
+2025-06-18 08:16:34,477 - INFO - Epoch 10/15, Batch 0, Loss: 0.0000
+2025-06-18 08:16:38,210 - INFO - Epoch 10/15, Batch 50, Loss: 0.0000
+2025-06-18 08:16:41,883 - INFO - Epoch 10/15, Batch 100, Loss: 0.0000
+2025-06-18 08:16:45,534 - INFO - Epoch 10/15, Batch 150, Loss: 0.0003
+2025-06-18 08:16:49,067 - INFO - Epoch 10/15, Batch 200, Loss: 0.0000
+2025-06-18 08:16:52,829 - INFO - Epoch 10/15, Batch 250, Loss: 0.0000
+2025-06-18 08:16:56,303 - INFO - Epoch 10/15, Batch 300, Loss: 0.0000
+2025-06-18 08:17:00,055 - INFO - Epoch 10/15, Batch 350, Loss: 0.0000
+2025-06-18 08:17:03,542 - INFO - Epoch 10/15, Batch 400, Loss: 0.0000
+2025-06-18 08:17:07,299 - INFO - Epoch 10/15, Batch 450, Loss: 0.0001
+2025-06-18 08:17:10,887 - INFO - Epoch 10/15, Batch 500, Loss: 0.0000
+2025-06-18 08:17:14,568 - INFO - Epoch 10/15, Batch 550, Loss: 0.0000
+2025-06-18 08:17:18,173 - INFO - Epoch 10/15, Batch 600, Loss: 0.0014
+2025-06-18 08:17:20,364 - INFO - Epoch 10/15 - Train Loss: 0.0002
+2025-06-18 08:17:20,932 - INFO - Checkpoint saved: checkpoint_epoch_10.pth
+2025-06-18 08:17:21,290 - INFO - Epoch 11/15, Batch 0, Loss: 0.0000
+2025-06-18 08:17:24,985 - INFO - Epoch 11/15, Batch 50, Loss: 0.0000
+2025-06-18 08:17:28,668 - INFO - Epoch 11/15, Batch 100, Loss: 0.0000
+2025-06-18 08:17:32,079 - INFO - Epoch 11/15, Batch 150, Loss: 0.0000
+2025-06-18 08:17:35,650 - INFO - Epoch 11/15, Batch 200, Loss: 0.0000
+2025-06-18 08:17:39,344 - INFO - Epoch 11/15, Batch 250, Loss: 0.0000
+2025-06-18 08:17:43,130 - INFO - Epoch 11/15, Batch 300, Loss: 0.0000
+2025-06-18 08:17:46,678 - INFO - Epoch 11/15, Batch 350, Loss: 0.0000
+2025-06-18 08:17:50,489 - INFO - Epoch 11/15, Batch 400, Loss: 0.0000
+2025-06-18 08:17:53,983 - INFO - Epoch 11/15, Batch 450, Loss: 0.0000
+2025-06-18 08:17:57,628 - INFO - Epoch 11/15, Batch 500, Loss: 0.0000
+2025-06-18 08:18:01,164 - INFO - Epoch 11/15, Batch 550, Loss: 0.0000
+2025-06-18 08:18:04,791 - INFO - Epoch 11/15, Batch 600, Loss: 0.0000
+2025-06-18 08:18:07,029 - INFO - Epoch 11/15 - Train Loss: 0.0001
+2025-06-18 08:18:07,405 - INFO - Epoch 12/15, Batch 0, Loss: 0.0005
+2025-06-18 08:18:10,955 - INFO - Epoch 12/15, Batch 50, Loss: 0.0000
+2025-06-18 08:18:14,528 - INFO - Epoch 12/15, Batch 100, Loss: 0.0000
+2025-06-18 08:18:18,126 - INFO - Epoch 12/15, Batch 150, Loss: 0.0000
+2025-06-18 08:18:21,902 - INFO - Epoch 12/15, Batch 200, Loss: 0.0000
+2025-06-18 08:18:25,417 - INFO - Epoch 12/15, Batch 250, Loss: 0.0001
+2025-06-18 08:18:29,008 - INFO - Epoch 12/15, Batch 300, Loss: 0.0000
+2025-06-18 08:18:32,540 - INFO - Epoch 12/15, Batch 350, Loss: 0.0000
+2025-06-18 08:18:36,314 - INFO - Epoch 12/15, Batch 400, Loss: 0.0000
+2025-06-18 08:18:39,759 - INFO - Epoch 12/15, Batch 450, Loss: 0.0000
+2025-06-18 08:18:43,463 - INFO - Epoch 12/15, Batch 500, Loss: 0.0000
+2025-06-18 08:18:47,155 - INFO - Epoch 12/15, Batch 550, Loss: 0.0000
+2025-06-18 08:18:50,899 - INFO - Epoch 12/15, Batch 600, Loss: 0.0000
+2025-06-18 08:18:52,954 - INFO - Epoch 12/15 - Train Loss: 0.0001
+2025-06-18 08:18:53,288 - INFO - Epoch 13/15, Batch 0, Loss: 0.0000
+2025-06-18 08:18:56,882 - INFO - Epoch 13/15, Batch 50, Loss: 0.0000
+2025-06-18 08:19:00,698 - INFO - Epoch 13/15, Batch 100, Loss: 0.0000
+2025-06-18 08:19:04,192 - INFO - Epoch 13/15, Batch 150, Loss: 0.0000
+2025-06-18 08:19:07,625 - INFO - Epoch 13/15, Batch 200, Loss: 0.0000
+2025-06-18 08:19:11,218 - INFO - Epoch 13/15, Batch 250, Loss: 0.0000
+2025-06-18 08:19:14,655 - INFO - Epoch 13/15, Batch 300, Loss: 0.0000
+2025-06-18 08:19:18,424 - INFO - Epoch 13/15, Batch 350, Loss: 0.0000
+2025-06-18 08:19:22,318 - INFO - Epoch 13/15, Batch 400, Loss: 0.0000
+2025-06-18 08:19:25,923 - INFO - Epoch 13/15, Batch 450, Loss: 0.0000
+2025-06-18 08:19:29,767 - INFO - Epoch 13/15, Batch 500, Loss: 0.0000
+2025-06-18 08:19:33,353 - INFO - Epoch 13/15, Batch 550, Loss: 0.0000
+2025-06-18 08:19:37,086 - INFO - Epoch 13/15, Batch 600, Loss: 0.0000
+2025-06-18 08:19:39,182 - INFO - Epoch 13/15 - Train Loss: 0.0001
+2025-06-18 08:19:39,545 - INFO - Epoch 14/15, Batch 0, Loss: 0.0069
+2025-06-18 08:19:43,106 - INFO - Epoch 14/15, Batch 50, Loss: 0.0000
+2025-06-18 08:19:46,764 - INFO - Epoch 14/15, Batch 100, Loss: 0.0000
+2025-06-18 08:19:50,375 - INFO - Epoch 14/15, Batch 150, Loss: 0.0000
+2025-06-18 08:19:53,957 - INFO - Epoch 14/15, Batch 200, Loss: 0.0000
+2025-06-18 08:19:57,615 - INFO - Epoch 14/15, Batch 250, Loss: 0.0000
+2025-06-18 08:20:01,227 - INFO - Epoch 14/15, Batch 300, Loss: 0.0000
+2025-06-18 08:20:04,727 - INFO - Epoch 14/15, Batch 350, Loss: 0.0004
+2025-06-18 08:20:08,405 - INFO - Epoch 14/15, Batch 400, Loss: 0.0000
+2025-06-18 08:20:11,862 - INFO - Epoch 14/15, Batch 450, Loss: 0.0000
+2025-06-18 08:20:15,733 - INFO - Epoch 14/15, Batch 500, Loss: 0.0000
+2025-06-18 08:20:19,218 - INFO - Epoch 14/15, Batch 550, Loss: 0.0000
+2025-06-18 08:20:23,082 - INFO - Epoch 14/15, Batch 600, Loss: 0.0000
+2025-06-18 08:20:25,063 - INFO - Epoch 14/15 - Train Loss: 0.0000
+2025-06-18 08:20:25,433 - INFO - Epoch 15/15, Batch 0, Loss: 0.0000
+2025-06-18 08:20:29,061 - INFO - Epoch 15/15, Batch 50, Loss: 0.0001
+2025-06-18 08:20:32,955 - INFO - Epoch 15/15, Batch 100, Loss: 0.0000
+2025-06-18 08:20:36,602 - INFO - Epoch 15/15, Batch 150, Loss: 0.0001
+2025-06-18 08:20:40,127 - INFO - Epoch 15/15, Batch 200, Loss: 0.0000
+2025-06-18 08:20:43,671 - INFO - Epoch 15/15, Batch 250, Loss: 0.0000
+2025-06-18 08:20:47,340 - INFO - Epoch 15/15, Batch 300, Loss: 0.0000
+2025-06-18 08:20:51,031 - INFO - Epoch 15/15, Batch 350, Loss: 0.0000
+2025-06-18 08:20:54,616 - INFO - Epoch 15/15, Batch 400, Loss: 0.0000
+2025-06-18 08:20:58,383 - INFO - Epoch 15/15, Batch 450, Loss: 0.0000
+2025-06-18 08:21:01,754 - INFO - Epoch 15/15, Batch 500, Loss: 0.0000
+2025-06-18 08:21:05,605 - INFO - Epoch 15/15, Batch 550, Loss: 0.0000
+2025-06-18 08:21:09,146 - INFO - Epoch 15/15, Batch 600, Loss: 0.0000
+2025-06-18 08:21:11,628 - INFO - Epoch 15/15 - Train Loss: 0.0000
+2025-06-18 08:21:12,137 - INFO - Checkpoint saved: checkpoint_epoch_15.pth
+2025-06-18 08:21:12,618 - INFO - Training completed!
+2025-06-18 08:21:12,797 - INFO - Loaded model from ./outputs/final_model.pth
+2025-06-18 08:21:12,797 - INFO - Creating dataset from data
+2025-06-18 08:21:12,797 - INFO - Looking for classes: ['Real_youtube']
+2025-06-18 08:21:12,797 - INFO - Checking directory: data/Real_youtube
+2025-06-18 08:21:12,823 - INFO - Dataset created with 5000 samples
+2025-06-18 08:21:12,824 - INFO -   Real_youtube: 5000 samples
+2025-06-18 08:21:12,824 - INFO - Creating dataset from data
+2025-06-18 08:21:12,824 - INFO - Looking for classes: ['NeuralTextures']
+2025-06-18 08:21:12,824 - INFO - Checking directory: data/NeuralTextures
+2025-06-18 08:21:12,846 - INFO - Dataset created with 10100 samples
+2025-06-18 08:21:12,846 - INFO -   NeuralTextures: 10100 samples
+2025-06-18 08:21:12,847 - INFO - Test set composition:
+2025-06-18 08:21:12,847 - INFO -   Real samples: 5000
+2025-06-18 08:21:12,847 - INFO -   Fake samples (NeuralTextures): 10100
+2025-06-18 08:21:12,847 - INFO -   Total test samples: 15100
+2025-06-18 08:21:12,847 - INFO - Starting evaluation...
+2025-06-18 08:21:47,034 - INFO - Results saved to ./outputs/test_results.csv
+2025-06-18 08:21:47,034 - INFO - Test Results:
+2025-06-18 08:21:47,034 - INFO -   AUC: 0.9914
+2025-06-18 08:21:47,034 - INFO -   EER: 0.0422
+2025-06-18 08:21:47,034 - INFO -   F1: 0.9160
+2025-06-18 08:21:47,034 - INFO -   Accuracy: 0.8963
+2025-06-18 08:21:47,035 - INFO -   EER_Threshold: 0.0000
+2025-06-18 08:21:47,159 - INFO - ROC curve saved to ./outputs/roc_curve.png
+2025-06-18 08:47:24,092 - INFO - Using device: cuda
+2025-06-18 08:47:24,092 - INFO - Arguments: Namespace(data_dir='./data', output_dir='./outputs', batch_size=32, epochs=15, lr=0.0001, seed=42, mode='both')
+2025-06-18 08:47:25,477 - INFO - Total parameters: 151,492,675
+2025-06-18 08:47:25,477 - INFO - Trainable parameters: 215,362 (0.14%)
+2025-06-18 08:47:25,477 - INFO - Creating dataset from data
+2025-06-18 08:47:25,477 - INFO - Looking for classes: ['Real_youtube', 'FaceSwap']
+2025-06-18 08:47:25,477 - INFO - Checking directory: data/Real_youtube
+2025-06-18 08:47:25,501 - INFO - Checking directory: data/FaceSwap
+2025-06-18 08:47:25,598 - INFO - Dataset created with 20200 samples
+2025-06-18 08:47:25,598 - INFO -   Real_youtube: 10100 samples
+2025-06-18 08:47:25,598 - INFO -   FaceSwap: 10100 samples
+2025-06-18 08:47:25,599 - INFO - Starting training...
+2025-06-18 08:47:26,249 - INFO - Epoch 1/15, Batch 0, Loss: 0.6839
+2025-06-18 08:47:48,198 - INFO - Using device: cuda
+2025-06-18 08:47:48,198 - INFO - Arguments: Namespace(data_dir='./data', output_dir='./outputs', batch_size=32, epochs=15, lr=0.0001, seed=42, mode='both')
+2025-06-18 08:47:49,579 - INFO - Total parameters: 151,492,675
+2025-06-18 08:47:49,579 - INFO - Trainable parameters: 215,362 (0.14%)
+2025-06-18 08:47:49,580 - INFO - Creating dataset from data
+2025-06-18 08:47:49,580 - INFO - Looking for classes: ['Real_youtube', 'FaceSwap']
+2025-06-18 08:47:49,580 - INFO - Checking directory: data/Real_youtube
+2025-06-18 08:47:49,604 - INFO - Checking directory: data/FaceSwap
+2025-06-18 08:47:49,694 - INFO - Dataset created with 20200 samples
+2025-06-18 08:47:49,694 - INFO -   Real_youtube: 10100 samples
+2025-06-18 08:47:49,695 - INFO -   FaceSwap: 10100 samples
+2025-06-18 08:47:49,695 - INFO - Starting training...
+2025-06-18 08:47:50,344 - INFO - Epoch 1/15, Batch 0, Loss: 0.6839
+2025-06-18 08:47:53,590 - INFO - Epoch 1/15, Batch 50, Loss: 0.7141
+2025-06-18 08:47:57,295 - INFO - Epoch 1/15, Batch 100, Loss: 0.6966
+2025-06-18 08:48:00,626 - INFO - Epoch 1/15, Batch 150, Loss: 0.6796
+2025-06-18 08:48:04,117 - INFO - Epoch 1/15, Batch 200, Loss: 0.6845
+2025-06-18 08:48:07,574 - INFO - Epoch 1/15, Batch 250, Loss: 0.5013
+2025-06-18 08:48:11,079 - INFO - Epoch 1/15, Batch 300, Loss: 0.3419
+2025-06-18 08:48:14,917 - INFO - Epoch 1/15, Batch 350, Loss: 0.1953
+2025-06-18 08:48:18,236 - INFO - Epoch 1/15, Batch 400, Loss: 0.1779
+2025-06-18 08:48:21,879 - INFO - Epoch 1/15, Batch 450, Loss: 0.1182
+2025-06-18 08:48:25,540 - INFO - Epoch 1/15, Batch 500, Loss: 0.0511
+2025-06-18 08:48:28,980 - INFO - Epoch 1/15, Batch 550, Loss: 0.0665
+2025-06-18 08:48:32,421 - INFO - Epoch 1/15, Batch 600, Loss: 0.0581
+2025-06-18 08:48:34,697 - INFO - Epoch 1/15 - Train Loss: 0.3778
+2025-06-18 08:48:35,110 - INFO - Epoch 2/15, Batch 0, Loss: 0.0148
+2025-06-18 08:48:38,643 - INFO - Epoch 2/15, Batch 50, Loss: 0.0241
+2025-06-18 08:48:42,295 - INFO - Epoch 2/15, Batch 100, Loss: 0.0299
+2025-06-18 08:48:45,586 - INFO - Epoch 2/15, Batch 150, Loss: 0.0369
+2025-06-18 08:48:49,230 - INFO - Epoch 2/15, Batch 200, Loss: 0.1719
+2025-06-18 08:48:52,850 - INFO - Epoch 2/15, Batch 250, Loss: 0.0121
+2025-06-18 08:48:56,385 - INFO - Epoch 2/15, Batch 300, Loss: 0.0246
+2025-06-18 08:49:00,164 - INFO - Epoch 2/15, Batch 350, Loss: 0.0169
+2025-06-18 08:49:03,637 - INFO - Epoch 2/15, Batch 400, Loss: 0.0235
+2025-06-18 08:49:07,422 - INFO - Epoch 2/15, Batch 450, Loss: 0.0027
+2025-06-18 08:49:10,808 - INFO - Epoch 2/15, Batch 500, Loss: 0.0106
+2025-06-18 08:49:14,536 - INFO - Epoch 2/15, Batch 550, Loss: 0.0300
+2025-06-18 08:49:18,094 - INFO - Epoch 2/15, Batch 600, Loss: 0.0021
+2025-06-18 08:49:20,215 - INFO - Epoch 2/15 - Train Loss: 0.0261
+2025-06-18 08:49:20,621 - INFO - Epoch 3/15, Batch 0, Loss: 0.0009
+2025-06-18 08:49:24,142 - INFO - Epoch 3/15, Batch 50, Loss: 0.0801
+2025-06-18 08:49:27,894 - INFO - Epoch 3/15, Batch 100, Loss: 0.0048
+2025-06-18 08:49:31,207 - INFO - Epoch 3/15, Batch 150, Loss: 0.0014
+2025-06-18 08:49:34,937 - INFO - Epoch 3/15, Batch 200, Loss: 0.0006
+2025-06-18 08:49:38,415 - INFO - Epoch 3/15, Batch 250, Loss: 0.0008
+2025-06-18 08:49:42,011 - INFO - Epoch 3/15, Batch 300, Loss: 0.0014
+2025-06-18 08:49:45,708 - INFO - Epoch 3/15, Batch 350, Loss: 0.0003
+2025-06-18 08:49:49,164 - INFO - Epoch 3/15, Batch 400, Loss: 0.0003
+2025-06-18 08:49:52,995 - INFO - Epoch 3/15, Batch 450, Loss: 0.0014
+2025-06-18 08:49:56,604 - INFO - Epoch 3/15, Batch 500, Loss: 0.0025
+2025-06-18 08:50:00,156 - INFO - Epoch 3/15, Batch 550, Loss: 0.0025
+2025-06-18 08:50:03,656 - INFO - Epoch 3/15, Batch 600, Loss: 0.0003
+2025-06-18 08:50:05,835 - INFO - Epoch 3/15 - Train Loss: 0.0071
+2025-06-18 08:50:06,200 - INFO - Epoch 4/15, Batch 0, Loss: 0.0428
+2025-06-18 08:50:09,651 - INFO - Epoch 4/15, Batch 50, Loss: 0.0002
+2025-06-18 08:50:13,331 - INFO - Epoch 4/15, Batch 100, Loss: 0.0012
+2025-06-18 08:50:16,686 - INFO - Epoch 4/15, Batch 150, Loss: 0.0002
+2025-06-18 08:50:20,411 - INFO - Epoch 4/15, Batch 200, Loss: 0.0003
+2025-06-18 08:50:23,956 - INFO - Epoch 4/15, Batch 250, Loss: 0.0002
+2025-06-18 08:50:27,679 - INFO - Epoch 4/15, Batch 300, Loss: 0.0011
+2025-06-18 08:50:31,375 - INFO - Epoch 4/15, Batch 350, Loss: 0.0009
+2025-06-18 08:50:34,952 - INFO - Epoch 4/15, Batch 400, Loss: 0.0152
+2025-06-18 08:50:38,468 - INFO - Epoch 4/15, Batch 450, Loss: 0.0004
+2025-06-18 08:50:42,164 - INFO - Epoch 4/15, Batch 500, Loss: 0.0039
+2025-06-18 08:50:45,753 - INFO - Epoch 4/15, Batch 550, Loss: 0.0001
+2025-06-18 08:50:49,258 - INFO - Epoch 4/15, Batch 600, Loss: 0.0002
+2025-06-18 08:50:51,486 - INFO - Epoch 4/15 - Train Loss: 0.0037
+2025-06-18 08:50:51,839 - INFO - Epoch 5/15, Batch 0, Loss: 0.0003
+2025-06-18 08:50:55,482 - INFO - Epoch 5/15, Batch 50, Loss: 0.0040
+2025-06-18 08:50:58,986 - INFO - Epoch 5/15, Batch 100, Loss: 0.0005
+2025-06-18 08:51:02,621 - INFO - Epoch 5/15, Batch 150, Loss: 0.0002
+2025-06-18 08:51:06,118 - INFO - Epoch 5/15, Batch 200, Loss: 0.0008
+2025-06-18 08:51:09,713 - INFO - Epoch 5/15, Batch 250, Loss: 0.0026
+2025-06-18 08:51:13,222 - INFO - Epoch 5/15, Batch 300, Loss: 0.0003
+2025-06-18 08:51:16,898 - INFO - Epoch 5/15, Batch 350, Loss: 0.0002
+2025-06-18 08:51:20,498 - INFO - Epoch 5/15, Batch 400, Loss: 0.0001
+2025-06-18 08:51:24,143 - INFO - Epoch 5/15, Batch 450, Loss: 0.0003
+2025-06-18 08:51:27,675 - INFO - Epoch 5/15, Batch 500, Loss: 0.0002
+2025-06-18 08:51:31,170 - INFO - Epoch 5/15, Batch 550, Loss: 0.0001
+2025-06-18 08:51:34,954 - INFO - Epoch 5/15, Batch 600, Loss: 0.0001
+2025-06-18 08:51:37,020 - INFO - Epoch 5/15 - Train Loss: 0.0019
+2025-06-18 08:51:37,546 - INFO - Checkpoint saved: checkpoint_epoch_5.pth
+2025-06-18 08:51:37,838 - INFO - Epoch 6/15, Batch 0, Loss: 0.0000
+2025-06-18 08:51:41,143 - INFO - Epoch 6/15, Batch 50, Loss: 0.0001
+2025-06-18 08:51:44,819 - INFO - Epoch 6/15, Batch 100, Loss: 0.0034
+2025-06-18 08:51:48,326 - INFO - Epoch 6/15, Batch 150, Loss: 0.0001
+2025-06-18 08:51:51,847 - INFO - Epoch 6/15, Batch 200, Loss: 0.0001
+2025-06-18 08:51:55,518 - INFO - Epoch 6/15, Batch 250, Loss: 0.0001
+2025-06-18 08:51:59,321 - INFO - Epoch 6/15, Batch 300, Loss: 0.0000
+2025-06-18 08:52:02,778 - INFO - Epoch 6/15, Batch 350, Loss: 0.0000
+2025-06-18 08:52:06,288 - INFO - Epoch 6/15, Batch 400, Loss: 0.0001
+2025-06-18 08:52:09,882 - INFO - Epoch 6/15, Batch 450, Loss: 0.0013
+2025-06-18 08:52:13,635 - INFO - Epoch 6/15, Batch 500, Loss: 0.0014
+2025-06-18 08:52:17,272 - INFO - Epoch 6/15, Batch 550, Loss: 0.0001
+2025-06-18 08:52:20,932 - INFO - Epoch 6/15, Batch 600, Loss: 0.0001
+2025-06-18 08:52:23,030 - INFO - Epoch 6/15 - Train Loss: 0.0013
+2025-06-18 08:52:23,362 - INFO - Epoch 7/15, Batch 0, Loss: 0.0000
+2025-06-18 08:52:26,844 - INFO - Epoch 7/15, Batch 50, Loss: 0.0006
+2025-06-18 08:52:30,401 - INFO - Epoch 7/15, Batch 100, Loss: 0.0001
+2025-06-18 08:52:34,076 - INFO - Epoch 7/15, Batch 150, Loss: 0.0001
+2025-06-18 08:52:37,774 - INFO - Epoch 7/15, Batch 200, Loss: 0.0003
+2025-06-18 08:52:41,223 - INFO - Epoch 7/15, Batch 250, Loss: 0.0001
+2025-06-18 08:52:44,886 - INFO - Epoch 7/15, Batch 300, Loss: 0.0001
+2025-06-18 08:52:48,642 - INFO - Epoch 7/15, Batch 350, Loss: 0.0001
+2025-06-18 08:52:52,047 - INFO - Epoch 7/15, Batch 400, Loss: 0.0006
+2025-06-18 08:52:55,779 - INFO - Epoch 7/15, Batch 450, Loss: 0.0002
+2025-06-18 08:52:59,391 - INFO - Epoch 7/15, Batch 500, Loss: 0.0000
+2025-06-18 08:53:03,147 - INFO - Epoch 7/15, Batch 550, Loss: 0.0006
+2025-06-18 08:53:06,619 - INFO - Epoch 7/15, Batch 600, Loss: 0.0000
+2025-06-18 08:53:09,054 - INFO - Epoch 7/15 - Train Loss: 0.0009
+2025-06-18 08:53:09,478 - INFO - Epoch 8/15, Batch 0, Loss: 0.0000
+2025-06-18 08:53:12,972 - INFO - Epoch 8/15, Batch 50, Loss: 0.0000
+2025-06-18 08:53:16,814 - INFO - Epoch 8/15, Batch 100, Loss: 0.0000
+2025-06-18 08:53:20,308 - INFO - Epoch 8/15, Batch 150, Loss: 0.0002
+2025-06-18 08:53:23,979 - INFO - Epoch 8/15, Batch 200, Loss: 0.0000
+2025-06-18 08:53:27,523 - INFO - Epoch 8/15, Batch 250, Loss: 0.0002
+2025-06-18 08:53:31,044 - INFO - Epoch 8/15, Batch 300, Loss: 0.0000
+2025-06-18 08:53:34,819 - INFO - Epoch 8/15, Batch 350, Loss: 0.0000
+2025-06-18 08:53:38,198 - INFO - Epoch 8/15, Batch 400, Loss: 0.0002
+2025-06-18 08:53:41,755 - INFO - Epoch 8/15, Batch 450, Loss: 0.0000
+2025-06-18 08:53:45,357 - INFO - Epoch 8/15, Batch 500, Loss: 0.0000
+2025-06-18 08:53:49,013 - INFO - Epoch 8/15, Batch 550, Loss: 0.0002
+2025-06-18 08:53:52,827 - INFO - Epoch 8/15, Batch 600, Loss: 0.0001
+2025-06-18 08:53:54,677 - INFO - Epoch 8/15 - Train Loss: 0.0004
+2025-06-18 08:53:54,991 - INFO - Epoch 9/15, Batch 0, Loss: 0.0002
+2025-06-18 08:53:58,446 - INFO - Epoch 9/15, Batch 50, Loss: 0.0000
+2025-06-18 08:54:02,344 - INFO - Epoch 9/15, Batch 100, Loss: 0.0000
+2025-06-18 08:54:05,692 - INFO - Epoch 9/15, Batch 150, Loss: 0.0000
+2025-06-18 08:54:09,398 - INFO - Epoch 9/15, Batch 200, Loss: 0.0000
+2025-06-18 08:54:12,968 - INFO - Epoch 9/15, Batch 250, Loss: 0.0000
+2025-06-18 08:54:16,522 - INFO - Epoch 9/15, Batch 300, Loss: 0.0000
+2025-06-18 08:54:20,314 - INFO - Epoch 9/15, Batch 350, Loss: 0.0005
+2025-06-18 08:54:23,829 - INFO - Epoch 9/15, Batch 400, Loss: 0.0000
+2025-06-18 08:54:27,764 - INFO - Epoch 9/15, Batch 450, Loss: 0.0000
+2025-06-18 08:54:31,349 - INFO - Epoch 9/15, Batch 500, Loss: 0.0000
+2025-06-18 08:54:35,009 - INFO - Epoch 9/15, Batch 550, Loss: 0.0000
+2025-06-18 08:54:38,493 - INFO - Epoch 9/15, Batch 600, Loss: 0.0000
+2025-06-18 08:54:40,797 - INFO - Epoch 9/15 - Train Loss: 0.0002
+2025-06-18 08:54:41,129 - INFO - Epoch 10/15, Batch 0, Loss: 0.0000
+2025-06-18 08:54:44,877 - INFO - Epoch 10/15, Batch 50, Loss: 0.0000
+2025-06-18 08:54:48,505 - INFO - Epoch 10/15, Batch 100, Loss: 0.0000
+2025-06-18 08:54:52,181 - INFO - Epoch 10/15, Batch 150, Loss: 0.0003
+2025-06-18 08:54:55,738 - INFO - Epoch 10/15, Batch 200, Loss: 0.0000
+2025-06-18 08:54:59,543 - INFO - Epoch 10/15, Batch 250, Loss: 0.0000
+2025-06-18 08:55:02,963 - INFO - Epoch 10/15, Batch 300, Loss: 0.0000
+2025-06-18 08:55:06,686 - INFO - Epoch 10/15, Batch 350, Loss: 0.0000
+2025-06-18 08:55:10,282 - INFO - Epoch 10/15, Batch 400, Loss: 0.0000
+2025-06-18 08:55:13,940 - INFO - Epoch 10/15, Batch 450, Loss: 0.0001
+2025-06-18 08:55:17,550 - INFO - Epoch 10/15, Batch 500, Loss: 0.0000
+2025-06-18 08:55:21,188 - INFO - Epoch 10/15, Batch 550, Loss: 0.0000
+2025-06-18 08:55:24,787 - INFO - Epoch 10/15, Batch 600, Loss: 0.0014
+2025-06-18 08:55:26,940 - INFO - Epoch 10/15 - Train Loss: 0.0002
+2025-06-18 08:55:27,460 - INFO - Checkpoint saved: checkpoint_epoch_10.pth
+2025-06-18 08:55:27,817 - INFO - Epoch 11/15, Batch 0, Loss: 0.0000
+2025-06-18 08:55:31,311 - INFO - Epoch 11/15, Batch 50, Loss: 0.0000
+2025-06-18 08:55:35,035 - INFO - Epoch 11/15, Batch 100, Loss: 0.0000
+2025-06-18 08:55:38,413 - INFO - Epoch 11/15, Batch 150, Loss: 0.0000
+2025-06-18 08:55:41,820 - INFO - Epoch 11/15, Batch 200, Loss: 0.0000
+2025-06-18 08:55:45,569 - INFO - Epoch 11/15, Batch 250, Loss: 0.0000
+2025-06-18 08:55:49,330 - INFO - Epoch 11/15, Batch 300, Loss: 0.0000
+2025-06-18 08:55:52,888 - INFO - Epoch 11/15, Batch 350, Loss: 0.0000
+2025-06-18 08:55:56,668 - INFO - Epoch 11/15, Batch 400, Loss: 0.0000
+2025-06-18 08:56:00,158 - INFO - Epoch 11/15, Batch 450, Loss: 0.0000
+2025-06-18 08:56:03,773 - INFO - Epoch 11/15, Batch 500, Loss: 0.0000
+2025-06-18 08:56:07,257 - INFO - Epoch 11/15, Batch 550, Loss: 0.0000
+2025-06-18 08:56:10,913 - INFO - Epoch 11/15, Batch 600, Loss: 0.0000
+2025-06-18 08:56:12,966 - INFO - Epoch 11/15 - Train Loss: 0.0001
+2025-06-18 08:56:13,341 - INFO - Epoch 12/15, Batch 0, Loss: 0.0005
+2025-06-18 08:56:16,920 - INFO - Epoch 12/15, Batch 50, Loss: 0.0000
+2025-06-18 08:56:20,456 - INFO - Epoch 12/15, Batch 100, Loss: 0.0000
+2025-06-18 08:56:24,119 - INFO - Epoch 12/15, Batch 150, Loss: 0.0000
+2025-06-18 08:56:27,894 - INFO - Epoch 12/15, Batch 200, Loss: 0.0000
+2025-06-18 08:56:31,393 - INFO - Epoch 12/15, Batch 250, Loss: 0.0001
+2025-06-18 08:56:34,949 - INFO - Epoch 12/15, Batch 300, Loss: 0.0000
+2025-06-18 08:56:38,509 - INFO - Epoch 12/15, Batch 350, Loss: 0.0000
+2025-06-18 08:56:42,286 - INFO - Epoch 12/15, Batch 400, Loss: 0.0000
+2025-06-18 08:56:45,771 - INFO - Epoch 12/15, Batch 450, Loss: 0.0000
+2025-06-18 08:56:49,490 - INFO - Epoch 12/15, Batch 500, Loss: 0.0000
+2025-06-18 08:56:53,140 - INFO - Epoch 12/15, Batch 550, Loss: 0.0000
+2025-06-18 08:56:56,884 - INFO - Epoch 12/15, Batch 600, Loss: 0.0000
+2025-06-18 08:56:58,967 - INFO - Epoch 12/15 - Train Loss: 0.0001
+2025-06-18 08:56:59,305 - INFO - Epoch 13/15, Batch 0, Loss: 0.0000
+2025-06-18 08:57:02,885 - INFO - Epoch 13/15, Batch 50, Loss: 0.0000
+2025-06-18 08:57:06,681 - INFO - Epoch 13/15, Batch 100, Loss: 0.0000
+2025-06-18 08:57:10,133 - INFO - Epoch 13/15, Batch 150, Loss: 0.0000
+2025-06-18 08:57:13,677 - INFO - Epoch 13/15, Batch 200, Loss: 0.0000
+2025-06-18 08:57:17,202 - INFO - Epoch 13/15, Batch 250, Loss: 0.0000
+2025-06-18 08:57:20,759 - INFO - Epoch 13/15, Batch 300, Loss: 0.0000
+2025-06-18 08:57:24,423 - INFO - Epoch 13/15, Batch 350, Loss: 0.0000
+2025-06-18 08:57:28,373 - INFO - Epoch 13/15, Batch 400, Loss: 0.0000
+2025-06-18 08:57:31,956 - INFO - Epoch 13/15, Batch 450, Loss: 0.0000
+2025-06-18 08:57:35,821 - INFO - Epoch 13/15, Batch 500, Loss: 0.0000
+2025-06-18 08:57:39,417 - INFO - Epoch 13/15, Batch 550, Loss: 0.0000
+2025-06-18 08:57:43,136 - INFO - Epoch 13/15, Batch 600, Loss: 0.0000
+2025-06-18 08:57:45,246 - INFO - Epoch 13/15 - Train Loss: 0.0001
+2025-06-18 08:57:45,615 - INFO - Epoch 14/15, Batch 0, Loss: 0.0069
+2025-06-18 08:57:49,190 - INFO - Epoch 14/15, Batch 50, Loss: 0.0000
+2025-06-18 08:57:52,836 - INFO - Epoch 14/15, Batch 100, Loss: 0.0000
+2025-06-18 08:57:56,415 - INFO - Epoch 14/15, Batch 150, Loss: 0.0000
+2025-06-18 08:57:59,994 - INFO - Epoch 14/15, Batch 200, Loss: 0.0000
+2025-06-18 08:58:03,630 - INFO - Epoch 14/15, Batch 250, Loss: 0.0000
+2025-06-18 08:58:07,228 - INFO - Epoch 14/15, Batch 300, Loss: 0.0000
+2025-06-18 08:58:10,769 - INFO - Epoch 14/15, Batch 350, Loss: 0.0004
+2025-06-18 08:58:14,463 - INFO - Epoch 14/15, Batch 400, Loss: 0.0000
+2025-06-18 08:58:17,994 - INFO - Epoch 14/15, Batch 450, Loss: 0.0000
+2025-06-18 08:58:21,851 - INFO - Epoch 14/15, Batch 500, Loss: 0.0000
+2025-06-18 08:58:25,257 - INFO - Epoch 14/15, Batch 550, Loss: 0.0000
+2025-06-18 08:58:29,057 - INFO - Epoch 14/15, Batch 600, Loss: 0.0000
+2025-06-18 08:58:31,069 - INFO - Epoch 14/15 - Train Loss: 0.0000
+2025-06-18 08:58:31,443 - INFO - Epoch 15/15, Batch 0, Loss: 0.0000
+2025-06-18 08:58:35,048 - INFO - Epoch 15/15, Batch 50, Loss: 0.0001
+2025-06-18 08:58:39,036 - INFO - Epoch 15/15, Batch 100, Loss: 0.0000
+2025-06-18 08:58:42,664 - INFO - Epoch 15/15, Batch 150, Loss: 0.0001
+2025-06-18 08:58:46,137 - INFO - Epoch 15/15, Batch 200, Loss: 0.0000
+2025-06-18 08:58:49,725 - INFO - Epoch 15/15, Batch 250, Loss: 0.0000
+2025-06-18 08:58:53,304 - INFO - Epoch 15/15, Batch 300, Loss: 0.0000
+2025-06-18 08:58:56,988 - INFO - Epoch 15/15, Batch 350, Loss: 0.0000
+2025-06-18 08:59:00,506 - INFO - Epoch 15/15, Batch 400, Loss: 0.0000
+2025-06-18 08:59:04,263 - INFO - Epoch 15/15, Batch 450, Loss: 0.0000
+2025-06-18 08:59:07,704 - INFO - Epoch 15/15, Batch 500, Loss: 0.0000
+2025-06-18 08:59:11,584 - INFO - Epoch 15/15, Batch 550, Loss: 0.0000
+2025-06-18 08:59:15,104 - INFO - Epoch 15/15, Batch 600, Loss: 0.0000
+2025-06-18 08:59:17,549 - INFO - Epoch 15/15 - Train Loss: 0.0000
+2025-06-18 08:59:18,126 - INFO - Checkpoint saved: checkpoint_epoch_15.pth
+2025-06-18 08:59:18,612 - INFO - Training completed!
+2025-06-18 08:59:18,800 - INFO - Loaded model from ./outputs/final_model.pth
+2025-06-18 08:59:18,800 - INFO - Creating dataset from data
+2025-06-18 08:59:18,800 - INFO - Looking for classes: ['Real_youtube']
+2025-06-18 08:59:18,800 - INFO - Checking directory: data/Real_youtube
+2025-06-18 08:59:18,823 - INFO - Dataset created with 5000 samples
+2025-06-18 08:59:18,823 - INFO -   Real_youtube: 5000 samples
+2025-06-18 08:59:18,823 - INFO - Creating dataset from data
+2025-06-18 08:59:18,823 - INFO - Looking for classes: ['NeuralTextures']
+2025-06-18 08:59:18,823 - INFO - Checking directory: data/NeuralTextures
+2025-06-18 08:59:18,845 - INFO - Dataset created with 10100 samples
+2025-06-18 08:59:18,845 - INFO -   NeuralTextures: 10100 samples
+2025-06-18 08:59:18,846 - INFO - Test set composition:
+2025-06-18 08:59:18,846 - INFO -   Real samples: 5000
+2025-06-18 08:59:18,846 - INFO -   Fake samples (NeuralTextures): 10100
+2025-06-18 08:59:18,846 - INFO -   Total test samples: 15100
+2025-06-18 08:59:18,846 - INFO - Starting evaluation...
+2025-06-18 08:59:53,110 - INFO - Results saved to ./outputs/test_results.csv
+2025-06-18 08:59:53,110 - INFO - Test Results:
+2025-06-18 08:59:53,110 - INFO -   AUC: 0.9914
+2025-06-18 08:59:53,111 - INFO -   EER: 0.0422
+2025-06-18 08:59:53,111 - INFO -   F1: 0.9160
+2025-06-18 08:59:53,111 - INFO -   Accuracy: 0.8963
+2025-06-18 08:59:53,111 - INFO -   EER_Threshold: 0.0000
+2025-06-18 08:59:53,233 - INFO - ROC curve saved to ./outputs/roc_curve.png
